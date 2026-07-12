@@ -1,0 +1,320 @@
+{
+ "pool_size": 32,
+ "n_probes": 250,
+ "cases": {
+  "DeepSeek-R1-Distill-Qwen-32B": {
+   "documented_base": "Qwen2.5-32B-Instruct",
+   "closed": {
+    "top1": "Qwen2.5-32B-Instruct",
+    "top1_score": 0.5827,
+    "top2": "DeepSeek-R1-Distill-Qwen-14B",
+    "top2_score": 0.4739,
+    "margin": 1.2295,
+    "boot_top1_freq": {
+     "Qwen2.5-32B-Instruct": 1.0
+    },
+    "boot_score_ci": [
+     0.5635,
+     0.6002
+    ],
+    "boot_margin_ci": [
+     1.179,
+     1.2803
+    ]
+   },
+   "open-a": {
+    "top1": "DeepSeek-R1-Distill-Qwen-14B",
+    "top1_score": 0.4739,
+    "top2": "Qwen2.5-14B",
+    "top2_score": 0.4524,
+    "margin": 1.0475,
+    "boot_top1_freq": {
+     "DeepSeek-R1-Distill-Qwen-14B": 0.986,
+     "Qwen2.5-14B": 0.012,
+     "Qwen3-14B": 0.002
+    },
+    "boot_score_ci": [
+     0.4566,
+     0.489
+    ],
+    "boot_margin_ci": [
+     1.0078,
+     1.073
+    ]
+   },
+   "open-b": {
+    "top1": "Qwen2.5-14B",
+    "top1_score": 0.4524,
+    "top2": "Qwen3-14B",
+    "top2_score": 0.4506,
+    "margin": 1.0041,
+    "boot_top1_freq": {
+     "Qwen2.5-14B": 0.6,
+     "Qwen3-14B": 0.4
+    },
+    "boot_score_ci": [
+     0.4406,
+     0.4696
+    ],
+    "boot_margin_ci": [
+     1.0009,
+     1.0444
+    ]
+   },
+   "score_drop_open_a": 0.1088,
+   "score_drop_open_b": 0.1303
+  },
+  "DeepSeek-R1-Distill-Qwen-14B": {
+   "documented_base": "Qwen2.5-14B",
+   "closed": {
+    "top1": "DeepSeek-R1-Distill-Qwen-32B",
+    "top1_score": 0.4739,
+    "top2": "Qwen2.5-14B",
+    "top2_score": 0.4569,
+    "margin": 1.0372,
+    "boot_top1_freq": {
+     "DeepSeek-R1-Distill-Qwen-32B": 0.964,
+     "Qwen2.5-14B": 0.036
+    },
+    "boot_score_ci": [
+     0.4592,
+     0.4885
+    ],
+    "boot_margin_ci": [
+     1.0044,
+     1.0819
+    ]
+   },
+   "open-a": {
+    "top1": "DeepSeek-R1-Distill-Qwen-32B",
+    "top1_score": 0.4739,
+    "top2": "Qwen2.5-32B-Instruct",
+    "top2_score": 0.401,
+    "margin": 1.1819,
+    "boot_top1_freq": {
+     "DeepSeek-R1-Distill-Qwen-32B": 1.0
+    },
+    "boot_score_ci": [
+     0.4597,
+     0.4888
+    ],
+    "boot_margin_ci": [
+     1.147,
+     1.2108
+    ]
+   },
+   "open-b": {
+    "top1": "Qwen2.5-32B-Instruct",
+    "top1_score": 0.401,
+    "top2": "Qwen3-14B",
+    "top2_score": 0.3996,
+    "margin": 1.0034,
+    "boot_top1_freq": {
+     "Qwen2.5-32B-Instruct": 0.548,
+     "Qwen3-14B": 0.45,
+     "Qwen3-4B": 0.002
+    },
+    "boot_score_ci": [
+     0.3896,
+     0.4171
+    ],
+    "boot_margin_ci": [
+     1.0007,
+     1.0374
+    ]
+   },
+   "score_drop_open_a": 0.0,
+   "score_drop_open_b": 0.0729
+  },
+  "DeepSeek-R1-Distill-Qwen-7B": {
+   "documented_base": "Qwen2.5-Math-7B",
+   "closed": {
+    "top1": "Qwen2.5-Math-7B",
+    "top1_score": 0.3059,
+    "top2": "DeepSeek-R1-Distill-Qwen-14B",
+    "top2_score": 0.2415,
+    "margin": 1.2668,
+    "boot_top1_freq": {
+     "Qwen2.5-Math-7B": 1.0
+    },
+    "boot_score_ci": [
+     0.2897,
+     0.3233
+    ],
+    "boot_margin_ci": [
+     1.2005,
+     1.3346
+    ]
+   },
+   "open-a": {
+    "top1": "DeepSeek-R1-Distill-Qwen-14B",
+    "top1_score": 0.2415,
+    "top2": "DeepSeek-R1-Distill-Qwen-32B",
+    "top2_score": 0.2362,
+    "margin": 1.0226,
+    "boot_top1_freq": {
+     "DeepSeek-R1-Distill-Qwen-14B": 0.902,
+     "DeepSeek-R1-Distill-Qwen-32B": 0.09,
+     "DeepSeek-R1-Distill-Qwen-1.5B": 0.006,
+     "Qwen2.5-7B-Instruct": 0.002
+    },
+    "boot_score_ci": [
+     0.2282,
+     0.2565
+    ],
+    "boot_margin_ci": [
+     1.0011,
+     1.0575
+    ]
+   },
+   "open-b": {
+    "top1": "Qwen3-4B",
+    "top1_score": 0.226,
+    "top2": "Qwen2.5-7B-Instruct",
+    "top2_score": 0.2238,
+    "margin": 1.0098,
+    "boot_top1_freq": {
+     "Qwen3-4B": 0.62,
+     "Qwen2.5-7B-Instruct": 0.332,
+     "Qwen2.5-Math-1.5B": 0.034,
+     "Qwen2.5-3B-Instruct": 0.006,
+     "Qwen2.5-32B-Instruct": 0.004,
+     "internlm2_5-7b-chat": 0.002,
+     "Qwen2.5-1.5B-Instruct": 0.002
+    },
+    "boot_score_ci": [
+     0.2154,
+     0.2407
+    ],
+    "boot_margin_ci": [
+     1.001,
+     1.0555
+    ]
+   },
+   "score_drop_open_a": 0.0644,
+   "score_drop_open_b": 0.0799
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B": {
+   "documented_base": "Qwen2.5-Math-1.5B",
+   "closed": {
+    "top1": "Qwen3-0.6B",
+    "top1_score": 0.2686,
+    "top2": "Qwen2.5-Math-1.5B",
+    "top2_score": 0.2596,
+    "margin": 1.0345,
+    "boot_top1_freq": {
+     "Qwen3-0.6B": 0.826,
+     "Qwen2.5-Math-1.5B": 0.174
+    },
+    "boot_score_ci": [
+     0.2544,
+     0.2834
+    ],
+    "boot_margin_ci": [
+     1.0014,
+     1.0937
+    ]
+   },
+   "open-a": {
+    "top1": "Qwen3-0.6B",
+    "top1_score": 0.2686,
+    "top2": "Qwen3-1.7B",
+    "top2_score": 0.2473,
+    "margin": 1.0862,
+    "boot_top1_freq": {
+     "Qwen3-0.6B": 1.0
+    },
+    "boot_score_ci": [
+     0.2539,
+     0.2851
+    ],
+    "boot_margin_ci": [
+     1.0419,
+     1.1299
+    ]
+   },
+   "open-b": {
+    "top1": "Qwen3-0.6B",
+    "top1_score": 0.2686,
+    "top2": "Qwen3-1.7B",
+    "top2_score": 0.2473,
+    "margin": 1.0862,
+    "boot_top1_freq": {
+     "Qwen3-0.6B": 1.0
+    },
+    "boot_score_ci": [
+     0.2544,
+     0.2824
+    ],
+    "boot_margin_ci": [
+     1.0456,
+     1.1336
+    ]
+   },
+   "score_drop_open_a": 0.0,
+   "score_drop_open_b": 0.0
+  },
+  "DeepSeek-R1-Distill-Llama-8B": {
+   "documented_base": "Llama-3.1-8B-Instruct",
+   "closed": {
+    "top1": "Llama-3.1-8B-Instruct",
+    "top1_score": 0.3195,
+    "top2": "DeepSeek-R1-Distill-Qwen-14B",
+    "top2_score": 0.2418,
+    "margin": 1.3214,
+    "boot_top1_freq": {
+     "Llama-3.1-8B-Instruct": 1.0
+    },
+    "boot_score_ci": [
+     0.3043,
+     0.3336
+    ],
+    "boot_margin_ci": [
+     1.2457,
+     1.4016
+    ]
+   },
+   "open-a": {
+    "top1": "DeepSeek-R1-Distill-Qwen-14B",
+    "top1_score": 0.2418,
+    "top2": "Llama-3.2-3B-Instruct",
+    "top2_score": 0.2309,
+    "margin": 1.0472,
+    "boot_top1_freq": {
+     "DeepSeek-R1-Distill-Qwen-14B": 0.942,
+     "Llama-3.2-3B-Instruct": 0.038,
+     "Ministral-8B-Instruct-2410": 0.02
+    },
+    "boot_score_ci": [
+     0.2284,
+     0.2574
+    ],
+    "boot_margin_ci": [
+     1.0028,
+     1.0745
+    ]
+   },
+   "open-b": {
+    "top1": "Llama-3.2-3B-Instruct",
+    "top1_score": 0.2309,
+    "top2": "Ministral-8B-Instruct-2410",
+    "top2_score": 0.2303,
+    "margin": 1.0024,
+    "boot_top1_freq": {
+     "Llama-3.2-3B-Instruct": 0.514,
+     "Ministral-8B-Instruct-2410": 0.486
+    },
+    "boot_score_ci": [
+     0.2214,
+     0.2451
+    ],
+    "boot_margin_ci": [
+     1.0009,
+     1.0595
+    ]
+   },
+   "score_drop_open_a": 0.0777,
+   "score_drop_open_b": 0.0886
+  }
+ }
+}

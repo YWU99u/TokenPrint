@@ -1,0 +1,46 @@
+{
+ "n_models": 30,
+ "n_output": 30,
+ "depths": {
+  "L/4": {
+   "n_models": 30,
+   "auc": 0.713,
+   "cohens_d": 0.52,
+   "within_between_ratio": 2.27,
+   "intra_mean": 0.029,
+   "inter_mean": 0.013
+  },
+  "L/2": {
+   "n_models": 30,
+   "auc": 0.687,
+   "cohens_d": 0.94,
+   "within_between_ratio": 2.56,
+   "intra_mean": 0.06,
+   "inter_mean": 0.023
+  },
+  "3L/4": {
+   "n_models": 30,
+   "auc": 0.75,
+   "cohens_d": 1.43,
+   "within_between_ratio": 2.19,
+   "intra_mean": 0.178,
+   "inter_mean": 0.081
+  },
+  "L-2": {
+   "n_models": 30,
+   "auc": 0.872,
+   "cohens_d": 1.83,
+   "within_between_ratio": 1.55,
+   "intra_mean": 0.359,
+   "inter_mean": 0.231
+  },
+  "output": {
+   "n_models": 30,
+   "auc": 0.9,
+   "cohens_d": 2.22,
+   "within_between_ratio": 1.57,
+   "intra_mean": 0.457,
+   "inter_mean": 0.291
+  }
+ }
+}

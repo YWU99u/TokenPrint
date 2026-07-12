@@ -1,0 +1,114 @@
+{
+ "ladder_raw": {
+  "unrelated": 0.22405311459062385,
+  "base": 0.4026956846836934,
+  "family": 0.36011979451034704,
+  "crossgen": 0.36105064844184104,
+  "identical": 0.47566787237094044
+ },
+ "ladder_excess": {
+  "unrelated": 0.1676318443440859,
+  "base": 0.3454141080911272,
+  "family": 0.2574506359038336,
+  "crossgen": 0.2435000256234553,
+  "identical": 0.3491171486265303
+ },
+ "base_id_excess": {
+  "DeepSeek-R1-Distill-Qwen-32B": {
+   "top1": "Qwen2.5-32B-Instruct",
+   "top1_v": 0.47,
+   "top2": "DeepSeek-R1-Distill-Qwen-14B",
+   "top2_v": 0.375,
+   "hit": true,
+   "margin": 1.25
+  },
+  "DeepSeek-R1-Distill-Llama-8B": {
+   "top1": "Llama-3.1-8B-Instruct",
+   "top1_v": 0.298,
+   "top2": "Ministral-8B-Instruct-2410",
+   "top2_v": 0.199,
+   "hit": true,
+   "margin": 1.5
+  },
+  "DeepSeek-R1-Distill-Qwen-7B": {
+   "top1": "Qwen2.5-Math-7B",
+   "top1_v": 0.268,
+   "top2": "DeepSeek-R1-Distill-Qwen-14B",
+   "top2_v": 0.192,
+   "hit": true,
+   "margin": 1.39
+  }
+ },
+ "auc_raw": 0.8584413398417776,
+ "auc_excess": 0.8426190876956742,
+ "perm_raw": {
+  "observed": 0.1229329653166926,
+  "p": 0.0,
+  "effect_sigma": 8.906085469342631
+ },
+ "perm_excess": {
+  "observed": 0.08387979537367263,
+  "p": 0.0,
+  "effect_sigma": 8.314351138550157
+ },
+ "leave_family_out_auc": {
+  "DS-Llama": 0.85,
+  "DS-Qwen": 0.91,
+  "Gemma": 0.853,
+  "InternLM": 0.86,
+  "Llama": 0.859,
+  "Mistral": 0.856,
+  "Phi": 0.854,
+  "Pythia": 0.817,
+  "Q25-Math": 0.854,
+  "Qwen2.5": 0.872,
+  "Qwen2.5-base": 0.87,
+  "Qwen3": 0.849
+ },
+ "drop_qwen_block": {
+  "n_models": 16,
+  "auc": 0.9015846538782318,
+  "perm": {
+   "observed": 0.13739344859860772,
+   "p": 0.0,
+   "effect_sigma": 6.629245241652227
+  }
+ },
+ "drop_pythia": {
+  "auc": 0.8165915915915916,
+  "perm": {
+   "observed": 0.09782504892187044,
+   "p": 0.0,
+   "effect_sigma": 7.095360731582234
+  }
+ },
+ "jackknife_auc": {
+  "min": 0.842,
+  "max": 0.884,
+  "mean": 0.858
+ },
+ "k_sensitivity_auc": {
+  "10": 0.854,
+  "20": 0.858,
+  "50": 0.837,
+  "100": 0.818
+ },
+ "pythia_crystallization": {
+  "pythia-1.4b": {
+   "num_layers": 24,
+   "overlap_34": 0.452
+  },
+  "pythia-6.9b": {
+   "num_layers": 32,
+   "overlap_34": 0.467
+  },
+  "pythia-12b": {
+   "num_layers": 36,
+   "overlap_34": 0.443
+  }
+ },
+ "null_same_tok": 0.085991743647064,
+ "null_diff_tok": 0.052613783907802955,
+ "pythia_rung_excess": 0.3491171486265303,
+ "base_rung_excess": 0.3454141080911272
+}

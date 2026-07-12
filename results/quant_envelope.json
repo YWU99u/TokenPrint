@@ -1,0 +1,14 @@
+{
+ "R1-Q-32B bf16 vs int8": {
+  "fp_jaccard": 0.9213,
+  "out_jaccard": 0.929
+ },
+ "R1-Q-32B bf16 vs int4": {
+  "fp_jaccard": 0.8459,
+  "out_jaccard": 0.8598
+ },
+ "Q2.5-32B bf16 vs int4": {
+  "fp_jaccard": 0.8237,
+  "out_jaccard": 0.8456
+ }
+}

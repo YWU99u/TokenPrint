@@ -1,0 +1,400 @@
+{
+ "witness_pairs": [
+  {
+   "witness": "gpt-neox-20b",
+   "ref": "pythia-1.4b",
+   "tok_match": "same",
+   "raw": 0.4369,
+   "null": 0.13,
+   "excess": 0.307,
+   "note": "same-data same-tok diff-project"
+  },
+  {
+   "witness": "gpt-neox-20b",
+   "ref": "pythia-6.9b",
+   "tok_match": "same",
+   "raw": 0.4627,
+   "null": 0.1316,
+   "excess": 0.3311,
+   "note": "same-data same-tok diff-project"
+  },
+  {
+   "witness": "gpt-neox-20b",
+   "ref": "pythia-12b",
+   "tok_match": "same",
+   "raw": 0.507,
+   "null": 0.1253,
+   "excess": 0.3817,
+   "note": "same-data same-tok diff-project"
+  },
+  {
+   "witness": "gpt-neox-20b",
+   "ref": "Qwen2.5-7B",
+   "tok_match": "cross",
+   "raw": 0.1702,
+   "null": 0.0581,
+   "excess": 0.1121,
+   "note": "unrelated ref"
+  },
+  {
+   "witness": "gpt-neox-20b",
+   "ref": "gemma-2-2b-it",
+   "tok_match": "cross",
+   "raw": 0.2574,
+   "null": 0.0946,
+   "excess": 0.1629,
+   "note": "unrelated ref"
+  },
+  {
+   "witness": "pythia-2.8b",
+   "ref": "pythia-1.4b",
+   "tok_match": "same",
+   "raw": 0.4669,
+   "null": 0.0947,
+   "excess": 0.3722,
+   "note": "same-data same-tok same-suite"
+  },
+  {
+   "witness": "pythia-2.8b",
+   "ref": "pythia-6.9b",
+   "tok_match": "same",
+   "raw": 0.4748,
+   "null": 0.1102,
+   "excess": 0.3646,
+   "note": "same-data same-tok same-suite"
+  },
+  {
+   "witness": "pythia-2.8b",
+   "ref": "pythia-12b",
+   "tok_match": "same",
+   "raw": 0.4825,
+   "null": 0.1053,
+   "excess": 0.3772,
+   "note": "same-data same-tok same-suite"
+  },
+  {
+   "witness": "pythia-2.8b",
+   "ref": "Qwen2.5-7B",
+   "tok_match": "cross",
+   "raw": 0.165,
+   "null": 0.0447,
+   "excess": 0.1204,
+   "note": "unrelated ref"
+  },
+  {
+   "witness": "pythia-2.8b",
+   "ref": "gemma-2-2b-it",
+   "tok_match": "cross",
+   "raw": 0.2336,
+   "null": 0.0767,
+   "excess": 0.1569,
+   "note": "unrelated ref"
+  },
+  {
+   "witness": "Cerebras-GPT-1.3B",
+   "ref": "pythia-1.4b",
+   "tok_match": "cross",
+   "raw": 0.4053,
+   "null": 0.1182,
+   "excess": 0.287,
+   "note": "same-data cross-tok cross-org"
+  },
+  {
+   "witness": "Cerebras-GPT-1.3B",
+   "ref": "pythia-6.9b",
+   "tok_match": "cross",
+   "raw": 0.3672,
+   "null": 0.1157,
+   "excess": 0.2515,
+   "note": "same-data cross-tok cross-org"
+  },
+  {
+   "witness": "Cerebras-GPT-1.3B",
+   "ref": "pythia-12b",
+   "tok_match": "cross",
+   "raw": 0.3584,
+   "null": 0.1066,
+   "excess": 0.2518,
+   "note": "same-data cross-tok cross-org"
+  },
+  {
+   "witness": "Cerebras-GPT-1.3B",
+   "ref": "Qwen2.5-7B",
+   "tok_match": "cross",
+   "raw": 0.134,
+   "null": 0.0479,
+   "excess": 0.0861,
+   "note": "unrelated ref"
+  },
+  {
+   "witness": "Cerebras-GPT-1.3B",
+   "ref": "gemma-2-2b-it",
+   "tok_match": "cross",
+   "raw": 0.2093,
+   "null": 0.0825,
+   "excess": 0.1268,
+   "note": "unrelated ref"
+  },
+  {
+   "witness": "Cerebras-GPT-2.7B",
+   "ref": "pythia-1.4b",
+   "tok_match": "cross",
+   "raw": 0.4379,
+   "null": 0.1205,
+   "excess": 0.3174,
+   "note": "same-data cross-tok cross-org"
+  },
+  {
+   "witness": "Cerebras-GPT-2.7B",
+   "ref": "pythia-6.9b",
+   "tok_match": "cross",
+   "raw": 0.4031,
+   "null": 0.1131,
+   "excess": 0.29,
+   "note": "same-data cross-tok cross-org"
+  },
+  {
+   "witness": "Cerebras-GPT-2.7B",
+   "ref": "pythia-12b",
+   "tok_match": "cross",
+   "raw": 0.4177,
+   "null": 0.1126,
+   "excess": 0.3051,
+   "note": "same-data cross-tok cross-org"
+  },
+  {
+   "witness": "Cerebras-GPT-2.7B",
+   "ref": "Qwen2.5-7B",
+   "tok_match": "cross",
+   "raw": 0.1507,
+   "null": 0.0469,
+   "excess": 0.1038,
+   "note": "unrelated ref"
+  },
+  {
+   "witness": "Cerebras-GPT-2.7B",
+   "ref": "gemma-2-2b-it",
+   "tok_match": "cross",
+   "raw": 0.2216,
+   "null": 0.0907,
+   "excess": 0.1309,
+   "note": "unrelated ref"
+  },
+  {
+   "witness": "Cerebras-GPT-6.7B",
+   "ref": "pythia-1.4b",
+   "tok_match": "cross",
+   "raw": 0.427,
+   "null": 0.1095,
+   "excess": 0.3175,
+   "note": "same-data cross-tok cross-org"
+  },
+  {
+   "witness": "Cerebras-GPT-6.7B",
+   "ref": "pythia-6.9b",
+   "tok_match": "cross",
+   "raw": 0.4288,
+   "null": 0.1001,
+   "excess": 0.3287,
+   "note": "same-data cross-tok cross-org"
+  },
+  {
+   "witness": "Cerebras-GPT-6.7B",
+   "ref": "pythia-12b",
+   "tok_match": "cross",
+   "raw": 0.4425,
+   "null": 0.0902,
+   "excess": 0.3523,
+   "note": "same-data cross-tok cross-org"
+  },
+  {
+   "witness": "Cerebras-GPT-6.7B",
+   "ref": "Qwen2.5-7B",
+   "tok_match": "cross",
+   "raw": 0.1636,
+   "null": 0.0475,
+   "excess": 0.1161,
+   "note": "unrelated ref"
+  },
+  {
+   "witness": "Cerebras-GPT-6.7B",
+   "ref": "gemma-2-2b-it",
+   "tok_match": "cross",
+   "raw": 0.2371,
+   "null": 0.0842,
+   "excess": 0.1529,
+   "note": "unrelated ref"
+  },
+  {
+   "witness": "Cerebras-GPT-13B",
+   "ref": "pythia-1.4b",
+   "tok_match": "cross",
+   "raw": 0.4136,
+   "null": 0.0968,
+   "excess": 0.3167,
+   "note": "same-data cross-tok cross-org"
+  },
+  {
+   "witness": "Cerebras-GPT-13B",
+   "ref": "pythia-6.9b",
+   "tok_match": "cross",
+   "raw": 0.4042,
+   "null": 0.1042,
+   "excess": 0.3,
+   "note": "same-data cross-tok cross-org"
+  },
+  {
+   "witness": "Cerebras-GPT-13B",
+   "ref": "pythia-12b",
+   "tok_match": "cross",
+   "raw": 0.4296,
+   "null": 0.1001,
+   "excess": 0.3295,
+   "note": "same-data cross-tok cross-org"
+  },
+  {
+   "witness": "Cerebras-GPT-13B",
+   "ref": "Qwen2.5-7B",
+   "tok_match": "cross",
+   "raw": 0.1647,
+   "null": 0.0355,
+   "excess": 0.1292,
+   "note": "unrelated ref"
+  },
+  {
+   "witness": "Cerebras-GPT-13B",
+   "ref": "gemma-2-2b-it",
+   "tok_match": "cross",
+   "raw": 0.2305,
+   "null": 0.0757,
+   "excess": 0.1548,
+   "note": "unrelated ref"
+  },
+  {
+   "witness": "rwkv-4-3b-pile",
+   "ref": "pythia-1.4b",
+   "tok_match": "cross-arch",
+   "raw": 0.4751,
+   "null": 0.0545,
+   "excess": 0.4206,
+   "note": "RWKV output-level same-data cross-arch",
+   "level": "output"
+  },
+  {
+   "witness": "rwkv-4-3b-pile",
+   "ref": "pythia-6.9b",
+   "tok_match": "cross-arch",
+   "raw": 0.5134,
+   "null": 0.0562,
+   "excess": 0.4572,
+   "note": "RWKV output-level same-data cross-arch",
+   "level": "output"
+  },
+  {
+   "witness": "rwkv-4-3b-pile",
+   "ref": "pythia-12b",
+   "tok_match": "cross-arch",
+   "raw": 0.5023,
+   "null": 0.0546,
+   "excess": 0.4477,
+   "note": "RWKV output-level same-data cross-arch",
+   "level": "output"
+  },
+  {
+   "witness": "rwkv-4-3b-pile",
+   "ref": "Qwen2.5-7B",
+   "tok_match": "cross-arch",
+   "raw": 0,
+   "null": 0,
+   "excess": 0,
+   "note": "RWKV output-level unrelated",
+   "level": "n/a"
+  },
+  {
+   "witness": "rwkv-4-3b-pile",
+   "ref": "gemma-2-2b-it",
+   "tok_match": "cross-arch",
+   "raw": 0.209,
+   "null": 0.0529,
+   "excess": 0.1561,
+   "note": "RWKV output-level unrelated",
+   "level": "output"
+  },
+  {
+   "witness": "rwkv-4-7b-pile",
+   "ref": "pythia-1.4b",
+   "tok_match": "cross-arch",
+   "raw": 0.4402,
+   "null": 0.0576,
+   "excess": 0.3825,
+   "note": "RWKV output-level same-data cross-arch",
+   "level": "output"
+  },
+  {
+   "witness": "rwkv-4-7b-pile",
+   "ref": "pythia-6.9b",
+   "tok_match": "cross-arch",
+   "raw": 0.5076,
+   "null": 0.0658,
+   "excess": 0.4418,
+   "note": "RWKV output-level same-data cross-arch",
+   "level": "output"
+  },
+  {
+   "witness": "rwkv-4-7b-pile",
+   "ref": "pythia-12b",
+   "tok_match": "cross-arch",
+   "raw": 0.5268,
+   "null": 0.0688,
+   "excess": 0.458,
+   "note": "RWKV output-level same-data cross-arch",
+   "level": "output"
+  },
+  {
+   "witness": "rwkv-4-7b-pile",
+   "ref": "Qwen2.5-7B",
+   "tok_match": "cross-arch",
+   "raw": 0,
+   "null": 0,
+   "excess": 0,
+   "note": "RWKV output-level unrelated",
+   "level": "n/a"
+  },
+  {
+   "witness": "rwkv-4-7b-pile",
+   "ref": "gemma-2-2b-it",
+   "tok_match": "cross-arch",
+   "raw": 0.225,
+   "null": 0.0486,
+   "excess": 0.1764,
+   "note": "RWKV output-level unrelated",
+   "level": "output"
+  }
+ ],
+ "summary": {
+  "same-data same-tok (NeoX\u2194Pythia)": {
+   "n": 8,
+   "mean_raw": 0.4037,
+   "mean_excess": 0.3014
+  },
+  "same-data cross-tok (Cerebras\u2194Pythia)": {
+   "n": 12,
+   "mean_raw": 0.4113,
+   "mean_excess": 0.304
+  },
+  "same-data cross-arch (RWKV\u2194Pythia)": {
+   "n": 6,
+   "mean_raw": 0.4942,
+   "mean_excess": 0.4346
+  },
+  "unrelated refs": {
+   "n": 12,
+   "mean_raw": 0.1948,
+   "mean_excess": 0.1294
+  },
+  "Pythia internal": {
+   "n": 3,
+   "mean_excess": 0.3553
+  }
+ }
+}

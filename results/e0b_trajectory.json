@@ -1,0 +1,92 @@
+{
+ "steps": {
+  "1000": {
+   "pair_raw": 0.3603,
+   "pair_null": 0.1084,
+   "pair_excess": 0.2519,
+   "ref_opt14_excess": 0.1528,
+   "ref_opt69_excess": 0.1209,
+   "ref_qwen14_excess": 0.0604,
+   "ref_qwen69_excess": 0.0468,
+   "self_1.4b_vs_final": 0.2529,
+   "self_6.9b_vs_final": 0.1876
+  },
+  "2000": {
+   "pair_raw": 0.4747,
+   "pair_null": 0.0839,
+   "pair_excess": 0.3908,
+   "ref_opt14_excess": 0.1727,
+   "ref_opt69_excess": 0.1856,
+   "ref_qwen14_excess": 0.0679,
+   "ref_qwen69_excess": 0.0794,
+   "self_1.4b_vs_final": 0.2946,
+   "self_6.9b_vs_final": 0.2647
+  },
+  "4000": {
+   "pair_raw": 0.4877,
+   "pair_null": 0.0863,
+   "pair_excess": 0.4014,
+   "ref_opt14_excess": 0.207,
+   "ref_opt69_excess": 0.2246,
+   "ref_qwen14_excess": 0.0823,
+   "ref_qwen69_excess": 0.0941,
+   "self_1.4b_vs_final": 0.3431,
+   "self_6.9b_vs_final": 0.3056
+  },
+  "8000": {
+   "pair_raw": 0.5242,
+   "pair_null": 0.0905,
+   "pair_excess": 0.4337,
+   "ref_opt14_excess": 0.2476,
+   "ref_opt69_excess": 0.2599,
+   "ref_qwen14_excess": 0.0968,
+   "ref_qwen69_excess": 0.0875,
+   "self_1.4b_vs_final": 0.4019,
+   "self_6.9b_vs_final": 0.3713
+  },
+  "16000": {
+   "pair_raw": 0.512,
+   "pair_null": 0.0946,
+   "pair_excess": 0.4174,
+   "ref_opt14_excess": 0.2664,
+   "ref_opt69_excess": 0.2757,
+   "ref_qwen14_excess": 0.0932,
+   "ref_qwen69_excess": 0.0903,
+   "self_1.4b_vs_final": 0.4595,
+   "self_6.9b_vs_final": 0.4295
+  },
+  "32000": {
+   "pair_raw": 0.5019,
+   "pair_null": 0.1113,
+   "pair_excess": 0.3906,
+   "ref_opt14_excess": 0.2702,
+   "ref_opt69_excess": 0.2719,
+   "ref_qwen14_excess": 0.0991,
+   "ref_qwen69_excess": 0.1004,
+   "self_1.4b_vs_final": 0.5164,
+   "self_6.9b_vs_final": 0.5121
+  },
+  "64000": {
+   "pair_raw": 0.4921,
+   "pair_null": 0.1225,
+   "pair_excess": 0.3696,
+   "ref_opt14_excess": 0.2633,
+   "ref_opt69_excess": 0.2563,
+   "ref_qwen14_excess": 0.1012,
+   "ref_qwen69_excess": 0.1056,
+   "self_1.4b_vs_final": 0.6152,
+   "self_6.9b_vs_final": 0.6159
+  },
+  "143000": {
+   "pair_raw": 0.47,
+   "pair_null": 0.1325,
+   "pair_excess": 0.3375,
+   "ref_opt14_excess": 0.2443,
+   "ref_opt69_excess": 0.2397,
+   "ref_qwen14_excess": 0.092,
+   "ref_qwen69_excess": 0.1058,
+   "self_1.4b_vs_final": 1.0,
+   "self_6.9b_vs_final": 1.0
+  }
+ }
+}

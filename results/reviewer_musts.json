@@ -1,0 +1,97 @@
+{
+ "M1": {
+  "same_tok_auc": 0.6858396858396858,
+  "cross_tok_auc": null,
+  "qwen_subpool_auc": 0.6815476190476191
+ },
+ "M2": {
+  "full": {
+   "auc": 0.8584413398417776,
+   "base_id": 3
+  },
+  "chinese": {
+   "auc": 0.8491275318408797,
+   "base_id": 3
+  },
+  "code": {
+   "auc": 0.8645009257700724,
+   "base_id": 3
+  },
+  "culture": {
+   "auc": 0.8613589182516973,
+   "base_id": 3
+  },
+  "geo_common": {
+   "auc": 0.8627054929024295,
+   "base_id": 3
+  },
+  "geo_niche": {
+   "auc": 0.8601245581551928,
+   "base_id": 3
+  },
+  "hist_common": {
+   "auc": 0.861471132805925,
+   "base_id": 3
+  },
+  "hist_niche": {
+   "auc": 0.860741738203445,
+   "base_id": 3
+  },
+  "longtail": {
+   "auc": 0.8592268417213713,
+   "base_id": 3
+  },
+  "math": {
+   "auc": 0.8519890029736857,
+   "base_id": 3
+  },
+  "multilingual": {
+   "auc": 0.8603489872636482,
+   "base_id": 3
+  },
+  "sci_common": {
+   "auc": 0.8562531560343377,
+   "base_id": 3
+  },
+  "sci_niche": {
+   "auc": 0.8530550412388487,
+   "base_id": 3
+  },
+  "temporal": {
+   "auc": 0.8609661673119003,
+   "base_id": 3
+  }
+ },
+ "M3": {
+  "diff": -0.0009308539314941688,
+  "ci": [
+   -0.0059156232229230065,
+   0.004343678478853971
+  ],
+  "p_leq0": 0.6388,
+  "separable": false
+ },
+ "M4": {
+  "DeepSeek-R1-Distill-Qwen-32B": {
+   "p_top1_is_base": 1.0,
+   "margin_ci": [
+    1.1812115211101846,
+    1.2736364775630564
+   ]
+  },
+  "DeepSeek-R1-Distill-Llama-8B": {
+   "p_top1_is_base": 1.0,
+   "margin_ci": [
+    1.2376583506019185,
+    1.3977220237417747
+   ]
+  },
+  "DeepSeek-R1-Distill-Qwen-7B": {
+   "p_top1_is_base": 1.0,
+   "margin_ci": [
+    1.196319002953845,
+    1.3350075131761656
+   ]
+  }
+ }
+}

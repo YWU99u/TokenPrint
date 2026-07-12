@@ -1,0 +1,27 @@
+{
+ "k=5": {
+  "auc": 0.866,
+  "cohens_d": 2.13,
+  "ancestry_hits": 3
+ },
+ "k=10": {
+  "auc": 0.889,
+  "cohens_d": 2.23,
+  "ancestry_hits": 3
+ },
+ "k=20": {
+  "auc": 0.9,
+  "cohens_d": 2.22,
+  "ancestry_hits": 3
+ },
+ "k=50": {
+  "auc": 0.894,
+  "cohens_d": 2.03,
+  "ancestry_hits": 3
+ },
+ "k=100": {
+  "auc": 0.89,
+  "cohens_d": 1.98,
+  "ancestry_hits": 3
+ }
+}

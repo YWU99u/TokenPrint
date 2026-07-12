@@ -1,0 +1,2494 @@
+{
+ "n_models": 32,
+ "pairs": {
+  "DeepSeek-R1-Distill-Llama-8B|DeepSeek-R1-Distill-Qwen-1.5B": {
+   "matched": 0.030279816141677622,
+   "mismatched": 0.003104869022051684,
+   "excess": 0.02717494711962594
+  },
+  "DeepSeek-R1-Distill-Llama-8B|DeepSeek-R1-Distill-Qwen-14B": {
+   "matched": 0.08803610769522711,
+   "mismatched": 0.0017701768772096097,
+   "excess": 0.0862659308180175
+  },
+  "DeepSeek-R1-Distill-Llama-8B|DeepSeek-R1-Distill-Qwen-32B": {
+   "matched": 0.020612612406720066,
+   "mismatched": 0.005957762639716724,
+   "excess": 0.014654849767003342
+  },
+  "DeepSeek-R1-Distill-Llama-8B|DeepSeek-R1-Distill-Qwen-7B": {
+   "matched": 0.014444969853189167,
+   "mismatched": 0.0021710222368117103,
+   "excess": 0.012273947616377456
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Llama-3.1-8B-Instruct": {
+   "matched": 0.3649992388533433,
+   "mismatched": 0.0034947005527500878,
+   "excess": 0.3615045383005932
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Llama-3.2-1B-Instruct": {
+   "matched": 0.1028433917778001,
+   "mismatched": 0.0011397672915668272,
+   "excess": 0.10170362448623327
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Llama-3.2-3B-Instruct": {
+   "matched": 0.19866014964000464,
+   "mismatched": 0.0029851378900567545,
+   "excess": 0.1956750117499479
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Ministral-8B-Instruct-2410": {
+   "matched": 0.11494399880977285,
+   "mismatched": 0.0019149939072539693,
+   "excess": 0.11302900490251888
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Mistral-7B-Instruct-v0.3": {
+   "matched": 0.11537061386940618,
+   "mismatched": 0.002892139053129765,
+   "excess": 0.11247847481627642
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Phi-3.5-mini-instruct": {
+   "matched": 0.09809520320574529,
+   "mismatched": 0.0022895753586543058,
+   "excess": 0.09580562784709099
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Qwen2.5-1.5B-Instruct": {
+   "matched": 0.04554029819880378,
+   "mismatched": 0.006829779711124588,
+   "excess": 0.03871051848767919
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Qwen2.5-14B": {
+   "matched": 0.0638504661907458,
+   "mismatched": 0.002925927376710109,
+   "excess": 0.06092453881403569
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Qwen2.5-32B-Instruct": {
+   "matched": 0.017198210276279737,
+   "mismatched": 0.0026254132283544044,
+   "excess": 0.014572797047925332
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Qwen2.5-3B-Instruct": {
+   "matched": 0.01793092187633,
+   "mismatched": 0.0029263416731957633,
+   "excess": 0.015004580203134237
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Qwen2.5-7B-Instruct": {
+   "matched": 0.020109944028254917,
+   "mismatched": 0.0019793133167746173,
+   "excess": 0.0181306307114803
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Qwen2.5-Math-1.5B": {
+   "matched": 0.04201174986604089,
+   "mismatched": 0.002210521801272575,
+   "excess": 0.03980122806476832
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Qwen2.5-Math-7B": {
+   "matched": 0.02385274693874531,
+   "mismatched": 0.0025548257801547274,
+   "excess": 0.021297921158590583
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Qwen3-0.6B": {
+   "matched": 0.03419749620973827,
+   "mismatched": 0.008179060700526547,
+   "excess": 0.02601843550921172
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Qwen3-1.7B": {
+   "matched": 0.05751721967531606,
+   "mismatched": 0.00456397916232319,
+   "excess": 0.05295324051299287
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Qwen3-14B": {
+   "matched": 0.07391006487289274,
+   "mismatched": 0.0028670502129942354,
+   "excess": 0.07104301465989851
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Qwen3-32B": {
+   "matched": 0.00492938158634753,
+   "mismatched": 0.001628520207467576,
+   "excess": 0.003300861378879954
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Qwen3-4B": {
+   "matched": 0.07228178215171491,
+   "mismatched": 0.0052158913506723855,
+   "excess": 0.06706589080104253
+  },
+  "DeepSeek-R1-Distill-Llama-8B|Qwen3-8B": {
+   "matched": 0.0832707319158593,
+   "mismatched": 0.003959912043996484,
+   "excess": 0.07931081987186282
+  },
+  "DeepSeek-R1-Distill-Llama-8B|gemma-2-27b-it": {
+   "matched": 0.058211823853302494,
+   "mismatched": 0.002104889869121368,
+   "excess": 0.05610693398418112
+  },
+  "DeepSeek-R1-Distill-Llama-8B|gemma-2-2b-it": {
+   "matched": 0.044761352084149164,
+   "mismatched": 0.0016668220329211043,
+   "excess": 0.04309453005122806
+  },
+  "DeepSeek-R1-Distill-Llama-8B|gemma-2-9b-it": {
+   "matched": 0.06017108029923682,
+   "mismatched": 0.0023319994108400217,
+   "excess": 0.057839080888396795
+  },
+  "DeepSeek-R1-Distill-Llama-8B|internlm2_5-7b-chat": {
+   "matched": 0.10969267482619627,
+   "mismatched": 0.001893711480523625,
+   "excess": 0.10779896334567264
+  },
+  "DeepSeek-R1-Distill-Llama-8B|phi-4": {
+   "matched": 0.15472072153542024,
+   "mismatched": 0.002817638339310166,
+   "excess": 0.15190308319611007
+  },
+  "DeepSeek-R1-Distill-Llama-8B|pythia-1.4b": {
+   "matched": 0.04880103041025884,
+   "mismatched": 0.002449029712187607,
+   "excess": 0.04635200069807124
+  },
+  "DeepSeek-R1-Distill-Llama-8B|pythia-12b": {
+   "matched": 0.03676103317019721,
+   "mismatched": 0.0021837189995084732,
+   "excess": 0.03457731417068874
+  },
+  "DeepSeek-R1-Distill-Llama-8B|pythia-6.9b": {
+   "matched": 0.03845951789518145,
+   "mismatched": 0.003406665919823815,
+   "excess": 0.03505285197535763
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|DeepSeek-R1-Distill-Qwen-14B": {
+   "matched": 0.09809541725414286,
+   "mismatched": 0.0459907150606055,
+   "excess": 0.05210470219353736
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|DeepSeek-R1-Distill-Qwen-32B": {
+   "matched": 0.08629789971286737,
+   "mismatched": 0.049716747725947405,
+   "excess": 0.03658115198691997
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|DeepSeek-R1-Distill-Qwen-7B": {
+   "matched": 0.06486219201982907,
+   "mismatched": 0.022341810980170768,
+   "excess": 0.0425203810396583
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Llama-3.1-8B-Instruct": {
+   "matched": 0.04051549850258259,
+   "mismatched": 0.00466929535195789,
+   "excess": 0.0358462031506247
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Llama-3.2-1B-Instruct": {
+   "matched": 0.04940151802660889,
+   "mismatched": 0.004892174267230444,
+   "excess": 0.04450934375937844
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Llama-3.2-3B-Instruct": {
+   "matched": 0.06861282293182025,
+   "mismatched": 0.007520199686645806,
+   "excess": 0.06109262324517444
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Ministral-8B-Instruct-2410": {
+   "matched": 0.04636411184474685,
+   "mismatched": 0.0048464554605321605,
+   "excess": 0.04151765638421469
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Mistral-7B-Instruct-v0.3": {
+   "matched": 0.05583233940713545,
+   "mismatched": 0.007481188507329524,
+   "excess": 0.04835115089980593
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Phi-3.5-mini-instruct": {
+   "matched": 0.05024082775958647,
+   "mismatched": 0.009379739619000455,
+   "excess": 0.04086108814058602
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Qwen2.5-1.5B-Instruct": {
+   "matched": 0.1695272910917825,
+   "mismatched": 0.08880407028777651,
+   "excess": 0.08072322080400599
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Qwen2.5-14B": {
+   "matched": 0.09978143981284511,
+   "mismatched": 0.05372288122832789,
+   "excess": 0.04605855858451722
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Qwen2.5-32B-Instruct": {
+   "matched": 0.07100181237500175,
+   "mismatched": 0.04095222764283255,
+   "excess": 0.030049584732169198
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Qwen2.5-3B-Instruct": {
+   "matched": 0.08528940444979735,
+   "mismatched": 0.04393733803896674,
+   "excess": 0.04135206641083061
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Qwen2.5-7B-Instruct": {
+   "matched": 0.0762459026070341,
+   "mismatched": 0.04697652546630561,
+   "excess": 0.029269377140728484
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Qwen2.5-Math-1.5B": {
+   "matched": 0.23303333375384205,
+   "mismatched": 0.050286296262235186,
+   "excess": 0.18274703749160687
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Qwen2.5-Math-7B": {
+   "matched": 0.09326991595127711,
+   "mismatched": 0.031902137173446976,
+   "excess": 0.06136777877783013
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Qwen3-0.6B": {
+   "matched": 0.19419066669655433,
+   "mismatched": 0.10355990864740482,
+   "excess": 0.09063075804914951
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Qwen3-1.7B": {
+   "matched": 0.16026086319295588,
+   "mismatched": 0.07999471718477387,
+   "excess": 0.08026614600818201
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Qwen3-14B": {
+   "matched": 0.08428094389580085,
+   "mismatched": 0.03213157233908931,
+   "excess": 0.05214937155671154
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Qwen3-32B": {
+   "matched": 0.009417668270377249,
+   "mismatched": 0.0027709946650542627,
+   "excess": 0.006646673605322987
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Qwen3-4B": {
+   "matched": 0.17024415284062122,
+   "mismatched": 0.07872152594136214,
+   "excess": 0.09152262689925908
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|Qwen3-8B": {
+   "matched": 0.1298296510597723,
+   "mismatched": 0.06438767523622341,
+   "excess": 0.06544197582354888
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|gemma-2-27b-it": {
+   "matched": 0.03930238865298805,
+   "mismatched": 0.009323975666854922,
+   "excess": 0.02997841298613313
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|gemma-2-2b-it": {
+   "matched": 0.09320415230407551,
+   "mismatched": 0.022858789947100142,
+   "excess": 0.07034536235697537
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|gemma-2-9b-it": {
+   "matched": 0.07025191579920984,
+   "mismatched": 0.021351475624155195,
+   "excess": 0.04890044017505464
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|internlm2_5-7b-chat": {
+   "matched": 0.04123273801601596,
+   "mismatched": 0.010241294814484042,
+   "excess": 0.030991443201531917
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|phi-4": {
+   "matched": 0.08162595218932296,
+   "mismatched": 0.03545123514869922,
+   "excess": 0.046174717040623744
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|pythia-1.4b": {
+   "matched": 0.06680508949608259,
+   "mismatched": 0.020665919413169864,
+   "excess": 0.046139170082912725
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|pythia-12b": {
+   "matched": 0.050107302722261465,
+   "mismatched": 0.018926532973309665,
+   "excess": 0.0311807697489518
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B|pythia-6.9b": {
+   "matched": 0.04785731260972267,
+   "mismatched": 0.019764780531255986,
+   "excess": 0.02809253207846668
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|DeepSeek-R1-Distill-Qwen-32B": {
+   "matched": 0.15579188848698822,
+   "mismatched": 0.07744640658033303,
+   "excess": 0.07834548190665519
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|DeepSeek-R1-Distill-Qwen-7B": {
+   "matched": 0.05306504268439511,
+   "mismatched": 0.01810004557052328,
+   "excess": 0.034964997113871826
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Llama-3.1-8B-Instruct": {
+   "matched": 0.09527469524923657,
+   "mismatched": 0.0026562559329680823,
+   "excess": 0.09261843931626848
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Llama-3.2-1B-Instruct": {
+   "matched": 0.08202083766572967,
+   "mismatched": 0.0016040333209450858,
+   "excess": 0.08041680434478458
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Llama-3.2-3B-Instruct": {
+   "matched": 0.11679460316316878,
+   "mismatched": 0.0029747298317625635,
+   "excess": 0.11381987333140622
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Ministral-8B-Instruct-2410": {
+   "matched": 0.0746269489706823,
+   "mismatched": 0.0028075584955890554,
+   "excess": 0.07181939047509324
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Mistral-7B-Instruct-v0.3": {
+   "matched": 0.0801700545527324,
+   "mismatched": 0.004185010425372953,
+   "excess": 0.07598504412735946
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Phi-3.5-mini-instruct": {
+   "matched": 0.07420591459131429,
+   "mismatched": 0.005737159637120938,
+   "excess": 0.06846875495419336
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Qwen2.5-1.5B-Instruct": {
+   "matched": 0.17868310901180523,
+   "mismatched": 0.0776477357664855,
+   "excess": 0.10103537324531973
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Qwen2.5-14B": {
+   "matched": 0.39653597181427835,
+   "mismatched": 0.08394213112283572,
+   "excess": 0.31259384069144264
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Qwen2.5-32B-Instruct": {
+   "matched": 0.13373278726585083,
+   "mismatched": 0.05854087379018665,
+   "excess": 0.07519191347566417
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Qwen2.5-3B-Instruct": {
+   "matched": 0.12605421309991496,
+   "mismatched": 0.0692410574754719,
+   "excess": 0.05681315562444306
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Qwen2.5-7B-Instruct": {
+   "matched": 0.10969494004646489,
+   "mismatched": 0.0541498640559816,
+   "excess": 0.05554507599048329
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Qwen2.5-Math-1.5B": {
+   "matched": 0.08407277315321204,
+   "mismatched": 0.0318030629937812,
+   "excess": 0.05226971015943084
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Qwen2.5-Math-7B": {
+   "matched": 0.08036997294826466,
+   "mismatched": 0.032977186638981804,
+   "excess": 0.047392786309282856
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Qwen3-0.6B": {
+   "matched": 0.14782211936383824,
+   "mismatched": 0.08126400600520267,
+   "excess": 0.06655811335863557
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Qwen3-1.7B": {
+   "matched": 0.18557367952439205,
+   "mismatched": 0.074623693802465,
+   "excess": 0.11094998572192705
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Qwen3-14B": {
+   "matched": 0.22811419707983022,
+   "mismatched": 0.04588440767391127,
+   "excess": 0.18222978940591894
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Qwen3-32B": {
+   "matched": 0.03158811425725438,
+   "mismatched": 0.008411406251963526,
+   "excess": 0.023176708005290852
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Qwen3-4B": {
+   "matched": 0.21885842401058966,
+   "mismatched": 0.07061682181663835,
+   "excess": 0.14824160219395133
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|Qwen3-8B": {
+   "matched": 0.24808117105907887,
+   "mismatched": 0.07449337483739872,
+   "excess": 0.17358779622168014
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|gemma-2-27b-it": {
+   "matched": 0.04989137317942467,
+   "mismatched": 0.0008957219251336899,
+   "excess": 0.048995651254290985
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|gemma-2-2b-it": {
+   "matched": 0.05272425613130467,
+   "mismatched": 0.006108587542052163,
+   "excess": 0.04661566858925251
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|gemma-2-9b-it": {
+   "matched": 0.063224506843665,
+   "mismatched": 0.002629481159570169,
+   "excess": 0.06059502568409483
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|internlm2_5-7b-chat": {
+   "matched": 0.12387735232624514,
+   "mismatched": 0.01277849145864659,
+   "excess": 0.11109886086759854
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|phi-4": {
+   "matched": 0.13794892832822903,
+   "mismatched": 0.03038560550420542,
+   "excess": 0.1075633228240236
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|pythia-1.4b": {
+   "matched": 0.03980029032901919,
+   "mismatched": 0.0027107179401103555,
+   "excess": 0.03708957238890884
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|pythia-12b": {
+   "matched": 0.03168051090387553,
+   "mismatched": 0.0028889568867597427,
+   "excess": 0.02879155401711579
+  },
+  "DeepSeek-R1-Distill-Qwen-14B|pythia-6.9b": {
+   "matched": 0.031048992142056163,
+   "mismatched": 0.002505323400834237,
+   "excess": 0.028543668741221925
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|DeepSeek-R1-Distill-Qwen-7B": {
+   "matched": 0.048822978353089894,
+   "mismatched": 0.02567481078905914,
+   "excess": 0.023148167564030753
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Llama-3.1-8B-Instruct": {
+   "matched": 0.026933958597679213,
+   "mismatched": 0.0042710443055837795,
+   "excess": 0.022662914292095434
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Llama-3.2-1B-Instruct": {
+   "matched": 0.01763969989665852,
+   "mismatched": 0.002041347999068587,
+   "excess": 0.015598351897589933
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Llama-3.2-3B-Instruct": {
+   "matched": 0.029941297397184145,
+   "mismatched": 0.006920780532254367,
+   "excess": 0.02302051686492978
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Ministral-8B-Instruct-2410": {
+   "matched": 0.03213684156114359,
+   "mismatched": 0.007871593540196231,
+   "excess": 0.024265248020947358
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Mistral-7B-Instruct-v0.3": {
+   "matched": 0.02743693788150839,
+   "mismatched": 0.005625260654285421,
+   "excess": 0.021811677227222968
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Phi-3.5-mini-instruct": {
+   "matched": 0.030093380082327897,
+   "mismatched": 0.009809388525582474,
+   "excess": 0.020283991556745422
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Qwen2.5-1.5B-Instruct": {
+   "matched": 0.14459427840309985,
+   "mismatched": 0.07745357467888565,
+   "excess": 0.0671407037242142
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Qwen2.5-14B": {
+   "matched": 0.1568610002687329,
+   "mismatched": 0.07225814147204185,
+   "excess": 0.08460285879669105
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Qwen2.5-32B-Instruct": {
+   "matched": 0.4840473176601204,
+   "mismatched": 0.0968696988343762,
+   "excess": 0.3871776188257442
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Qwen2.5-3B-Instruct": {
+   "matched": 0.105483297196438,
+   "mismatched": 0.052337229327368444,
+   "excess": 0.05314606786906955
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Qwen2.5-7B-Instruct": {
+   "matched": 0.1189799570375226,
+   "mismatched": 0.05897605569151783,
+   "excess": 0.060003901346004765
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Qwen2.5-Math-1.5B": {
+   "matched": 0.06575772517622155,
+   "mismatched": 0.02927343006557216,
+   "excess": 0.03648429511064939
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Qwen2.5-Math-7B": {
+   "matched": 0.0658828826584569,
+   "mismatched": 0.03261115976063107,
+   "excess": 0.03327172289782583
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Qwen3-0.6B": {
+   "matched": 0.15624071810809817,
+   "mismatched": 0.11375297606019501,
+   "excess": 0.04248774204790316
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Qwen3-1.7B": {
+   "matched": 0.1399842386292252,
+   "mismatched": 0.08634301060676064,
+   "excess": 0.05364122802246457
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Qwen3-14B": {
+   "matched": 0.12103162280469029,
+   "mismatched": 0.05154309251065063,
+   "excess": 0.06948853029403966
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Qwen3-32B": {
+   "matched": 0.04727383520741225,
+   "mismatched": 0.013509925526179396,
+   "excess": 0.03376390968123285
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Qwen3-4B": {
+   "matched": 0.1486574274222657,
+   "mismatched": 0.08084836213610608,
+   "excess": 0.06780906528615963
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|Qwen3-8B": {
+   "matched": 0.1378661527620854,
+   "mismatched": 0.07004945523451056,
+   "excess": 0.06781669752757483
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|gemma-2-27b-it": {
+   "matched": 0.02348209056956504,
+   "mismatched": 0.004208831440352338,
+   "excess": 0.019273259129212704
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|gemma-2-2b-it": {
+   "matched": 0.03485364449622982,
+   "mismatched": 0.008792381579339783,
+   "excess": 0.026061262916890034
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|gemma-2-9b-it": {
+   "matched": 0.04220969426648968,
+   "mismatched": 0.02045376483210112,
+   "excess": 0.021755929434388557
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|internlm2_5-7b-chat": {
+   "matched": 0.04148602670941251,
+   "mismatched": 0.0124661568866852,
+   "excess": 0.02901986982272731
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|phi-4": {
+   "matched": 0.05431023632675529,
+   "mismatched": 0.031789808638709276,
+   "excess": 0.02252042768804601
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|pythia-1.4b": {
+   "matched": 0.045602639188737214,
+   "mismatched": 0.018027391236860736,
+   "excess": 0.027575247951876478
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|pythia-12b": {
+   "matched": 0.05330783781982818,
+   "mismatched": 0.0271443522266658,
+   "excess": 0.02616348559316238
+  },
+  "DeepSeek-R1-Distill-Qwen-32B|pythia-6.9b": {
+   "matched": 0.04621837175256325,
+   "mismatched": 0.022596865636704468,
+   "excess": 0.02362150611585878
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Llama-3.1-8B-Instruct": {
+   "matched": 0.01923238741037043,
+   "mismatched": 0.0022495646605553725,
+   "excess": 0.016982822749815055
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Llama-3.2-1B-Instruct": {
+   "matched": 0.022237642050554833,
+   "mismatched": 0.002496963915694566,
+   "excess": 0.019740678134860266
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Llama-3.2-3B-Instruct": {
+   "matched": 0.02822188586575883,
+   "mismatched": 0.00452849431409803,
+   "excess": 0.0236933915516608
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Ministral-8B-Instruct-2410": {
+   "matched": 0.025449102883932602,
+   "mismatched": 0.004914543809280651,
+   "excess": 0.020534559074651952
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Mistral-7B-Instruct-v0.3": {
+   "matched": 0.02328344958674302,
+   "mismatched": 0.004059175411255208,
+   "excess": 0.01922427417548781
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Phi-3.5-mini-instruct": {
+   "matched": 0.021947674900286197,
+   "mismatched": 0.0021717850418508313,
+   "excess": 0.019775889858435366
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Qwen2.5-1.5B-Instruct": {
+   "matched": 0.06521714021921503,
+   "mismatched": 0.033557659919687344,
+   "excess": 0.031659480299527684
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Qwen2.5-14B": {
+   "matched": 0.04621829250737381,
+   "mismatched": 0.022769366140026094,
+   "excess": 0.023448926367347717
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Qwen2.5-32B-Instruct": {
+   "matched": 0.04307379075012023,
+   "mismatched": 0.019727812247742588,
+   "excess": 0.023345978502377643
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Qwen2.5-3B-Instruct": {
+   "matched": 0.04455811726717498,
+   "mismatched": 0.023179802699466467,
+   "excess": 0.02137831456770851
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Qwen2.5-7B-Instruct": {
+   "matched": 0.05132073018773774,
+   "mismatched": 0.018333387224666063,
+   "excess": 0.032987342963071674
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Qwen2.5-Math-1.5B": {
+   "matched": 0.06246499009504172,
+   "mismatched": 0.016094314390076775,
+   "excess": 0.04637067570496495
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Qwen2.5-Math-7B": {
+   "matched": 0.18702248542590683,
+   "mismatched": 0.026970848720215167,
+   "excess": 0.16005163670569167
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Qwen3-0.6B": {
+   "matched": 0.06662023946050812,
+   "mismatched": 0.030843556362767276,
+   "excess": 0.03577668309774084
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Qwen3-1.7B": {
+   "matched": 0.06648056418386128,
+   "mismatched": 0.030878063651785723,
+   "excess": 0.03560250053207556
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Qwen3-14B": {
+   "matched": 0.04849489672182689,
+   "mismatched": 0.01861699477123047,
+   "excess": 0.029877901950596423
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Qwen3-32B": {
+   "matched": 0.009782188472281352,
+   "mismatched": 0.003276890250574461,
+   "excess": 0.00650529822170689
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Qwen3-4B": {
+   "matched": 0.07291922259064497,
+   "mismatched": 0.03492471562001217,
+   "excess": 0.0379945069706328
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|Qwen3-8B": {
+   "matched": 0.0632528629835531,
+   "mismatched": 0.0294693739661707,
+   "excess": 0.033783489017382394
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|gemma-2-27b-it": {
+   "matched": 0.02136452909587051,
+   "mismatched": 0.0028458191461287435,
+   "excess": 0.018518709949741766
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|gemma-2-2b-it": {
+   "matched": 0.03598764616744993,
+   "mismatched": 0.007513740698725218,
+   "excess": 0.02847390546872471
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|gemma-2-9b-it": {
+   "matched": 0.030898974623033346,
+   "mismatched": 0.006583115991010727,
+   "excess": 0.024315858632022617
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|internlm2_5-7b-chat": {
+   "matched": 0.025250533839116095,
+   "mismatched": 0.004686223094117831,
+   "excess": 0.020564310744998263
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|phi-4": {
+   "matched": 0.035310300550395926,
+   "mismatched": 0.008891517759068069,
+   "excess": 0.02641878279132786
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|pythia-1.4b": {
+   "matched": 0.025142928509259775,
+   "mismatched": 0.006320102491155123,
+   "excess": 0.01882282601810465
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|pythia-12b": {
+   "matched": 0.01948192317217085,
+   "mismatched": 0.007176994808573756,
+   "excess": 0.012304928363597093
+  },
+  "DeepSeek-R1-Distill-Qwen-7B|pythia-6.9b": {
+   "matched": 0.019056087744013444,
+   "mismatched": 0.006394493683967368,
+   "excess": 0.012661594060046076
+  },
+  "Llama-3.1-8B-Instruct|Llama-3.2-1B-Instruct": {
+   "matched": 0.1290336950886536,
+   "mismatched": 0.002145004854176681,
+   "excess": 0.1268886902344769
+  },
+  "Llama-3.1-8B-Instruct|Llama-3.2-3B-Instruct": {
+   "matched": 0.26101489819658197,
+   "mismatched": 0.00532184170143573,
+   "excess": 0.25569305649514623
+  },
+  "Llama-3.1-8B-Instruct|Ministral-8B-Instruct-2410": {
+   "matched": 0.1493732529864541,
+   "mismatched": 0.004680212897801907,
+   "excess": 0.1446930400886522
+  },
+  "Llama-3.1-8B-Instruct|Mistral-7B-Instruct-v0.3": {
+   "matched": 0.15184355613662848,
+   "mismatched": 0.003468824113657705,
+   "excess": 0.14837473202297077
+  },
+  "Llama-3.1-8B-Instruct|Phi-3.5-mini-instruct": {
+   "matched": 0.11628820521522278,
+   "mismatched": 0.0026707976847295733,
+   "excess": 0.11361740753049321
+  },
+  "Llama-3.1-8B-Instruct|Qwen2.5-1.5B-Instruct": {
+   "matched": 0.05684277605181947,
+   "mismatched": 0.006350143287453125,
+   "excess": 0.050492632764366344
+  },
+  "Llama-3.1-8B-Instruct|Qwen2.5-14B": {
+   "matched": 0.07429633831448683,
+   "mismatched": 0.00407232088095371,
+   "excess": 0.07022401743353313
+  },
+  "Llama-3.1-8B-Instruct|Qwen2.5-32B-Instruct": {
+   "matched": 0.023131800902247823,
+   "mismatched": 0.003215810656512744,
+   "excess": 0.01991599024573508
+  },
+  "Llama-3.1-8B-Instruct|Qwen2.5-3B-Instruct": {
+   "matched": 0.020246830097999744,
+   "mismatched": 0.001052776943687187,
+   "excess": 0.01919405315431256
+  },
+  "Llama-3.1-8B-Instruct|Qwen2.5-7B-Instruct": {
+   "matched": 0.027561115885594012,
+   "mismatched": 0.003630792350993589,
+   "excess": 0.023930323534600423
+  },
+  "Llama-3.1-8B-Instruct|Qwen2.5-Math-1.5B": {
+   "matched": 0.053490177718683515,
+   "mismatched": 0.004754266860497511,
+   "excess": 0.048735910858186
+  },
+  "Llama-3.1-8B-Instruct|Qwen2.5-Math-7B": {
+   "matched": 0.03646863867862175,
+   "mismatched": 0.002135508529568127,
+   "excess": 0.03433313014905362
+  },
+  "Llama-3.1-8B-Instruct|Qwen3-0.6B": {
+   "matched": 0.04680513502281579,
+   "mismatched": 0.006259288177493865,
+   "excess": 0.04054584684532192
+  },
+  "Llama-3.1-8B-Instruct|Qwen3-1.7B": {
+   "matched": 0.07473605717020768,
+   "mismatched": 0.007682214934468254,
+   "excess": 0.06705384223573942
+  },
+  "Llama-3.1-8B-Instruct|Qwen3-14B": {
+   "matched": 0.0868779320390863,
+   "mismatched": 0.0026865985240598243,
+   "excess": 0.08419133351502647
+  },
+  "Llama-3.1-8B-Instruct|Qwen3-32B": {
+   "matched": 0.006053416047456296,
+   "mismatched": 0.0013568866726761464,
+   "excess": 0.004696529374780149
+  },
+  "Llama-3.1-8B-Instruct|Qwen3-4B": {
+   "matched": 0.09142438802134827,
+   "mismatched": 0.009301319152555004,
+   "excess": 0.08212306886879327
+  },
+  "Llama-3.1-8B-Instruct|Qwen3-8B": {
+   "matched": 0.10031500045679768,
+   "mismatched": 0.00393712792242204,
+   "excess": 0.09637787253437564
+  },
+  "Llama-3.1-8B-Instruct|gemma-2-27b-it": {
+   "matched": 0.0804570017543433,
+   "mismatched": 0.003838155827716274,
+   "excess": 0.07661884592662702
+  },
+  "Llama-3.1-8B-Instruct|gemma-2-2b-it": {
+   "matched": 0.0675640557374357,
+   "mismatched": 0.004322857216916815,
+   "excess": 0.06324119852051888
+  },
+  "Llama-3.1-8B-Instruct|gemma-2-9b-it": {
+   "matched": 0.0873602748190768,
+   "mismatched": 0.008678411706575094,
+   "excess": 0.0786818631125017
+  },
+  "Llama-3.1-8B-Instruct|internlm2_5-7b-chat": {
+   "matched": 0.12518875382757946,
+   "mismatched": 0.0018689339582334938,
+   "excess": 0.12331981986934597
+  },
+  "Llama-3.1-8B-Instruct|phi-4": {
+   "matched": 0.18192386791946255,
+   "mismatched": 0.003825162061254193,
+   "excess": 0.17809870585820836
+  },
+  "Llama-3.1-8B-Instruct|pythia-1.4b": {
+   "matched": 0.06443768091680735,
+   "mismatched": 0.005487764343801496,
+   "excess": 0.058949916573005856
+  },
+  "Llama-3.1-8B-Instruct|pythia-12b": {
+   "matched": 0.048666734197159646,
+   "mismatched": 0.005180636234341418,
+   "excess": 0.04348609796281823
+  },
+  "Llama-3.1-8B-Instruct|pythia-6.9b": {
+   "matched": 0.04762379342699427,
+   "mismatched": 0.006815979152192076,
+   "excess": 0.04080781427480219
+  },
+  "Llama-3.2-1B-Instruct|Llama-3.2-3B-Instruct": {
+   "matched": 0.19734987479268273,
+   "mismatched": 0.004554084794506621,
+   "excess": 0.19279578999817612
+  },
+  "Llama-3.2-1B-Instruct|Ministral-8B-Instruct-2410": {
+   "matched": 0.08742619389668772,
+   "mismatched": 0.0015163572586173206,
+   "excess": 0.0859098366380704
+  },
+  "Llama-3.2-1B-Instruct|Mistral-7B-Instruct-v0.3": {
+   "matched": 0.12057146268259417,
+   "mismatched": 0.0032284403600193077,
+   "excess": 0.11734302232257486
+  },
+  "Llama-3.2-1B-Instruct|Phi-3.5-mini-instruct": {
+   "matched": 0.12318701527169668,
+   "mismatched": 0.0036332517883407977,
+   "excess": 0.11955376348335588
+  },
+  "Llama-3.2-1B-Instruct|Qwen2.5-1.5B-Instruct": {
+   "matched": 0.07648219149345065,
+   "mismatched": 0.00331006851268948,
+   "excess": 0.07317212298076117
+  },
+  "Llama-3.2-1B-Instruct|Qwen2.5-14B": {
+   "matched": 0.06438557804247882,
+   "mismatched": 0.0008679555738379268,
+   "excess": 0.0635176224686409
+  },
+  "Llama-3.2-1B-Instruct|Qwen2.5-32B-Instruct": {
+   "matched": 0.015972130949795157,
+   "mismatched": 0.0017079453402982813,
+   "excess": 0.014264185609496875
+  },
+  "Llama-3.2-1B-Instruct|Qwen2.5-3B-Instruct": {
+   "matched": 0.03183694948175529,
+   "mismatched": 0.0012656031108043491,
+   "excess": 0.030571346370950943
+  },
+  "Llama-3.2-1B-Instruct|Qwen2.5-7B-Instruct": {
+   "matched": 0.021758170533177683,
+   "mismatched": 0.0005723645723645723,
+   "excess": 0.02118580596081311
+  },
+  "Llama-3.2-1B-Instruct|Qwen2.5-Math-1.5B": {
+   "matched": 0.06852691796813636,
+   "mismatched": 0.004811391464642239,
+   "excess": 0.06371552650349412
+  },
+  "Llama-3.2-1B-Instruct|Qwen2.5-Math-7B": {
+   "matched": 0.03734779253231885,
+   "mismatched": 0.002948013219685046,
+   "excess": 0.034399779312633806
+  },
+  "Llama-3.2-1B-Instruct|Qwen3-0.6B": {
+   "matched": 0.046375926513435854,
+   "mismatched": 0.0055347938300565405,
+   "excess": 0.040841132683379314
+  },
+  "Llama-3.2-1B-Instruct|Qwen3-1.7B": {
+   "matched": 0.0800083185411882,
+   "mismatched": 0.0034897506463523443,
+   "excess": 0.07651856789483585
+  },
+  "Llama-3.2-1B-Instruct|Qwen3-14B": {
+   "matched": 0.07924377513493938,
+   "mismatched": 0.0024267646495469077,
+   "excess": 0.07681701048539247
+  },
+  "Llama-3.2-1B-Instruct|Qwen3-32B": {
+   "matched": 0.005603217826902037,
+   "mismatched": 0.0001388888888888889,
+   "excess": 0.005464328938013148
+  },
+  "Llama-3.2-1B-Instruct|Qwen3-4B": {
+   "matched": 0.09259592244590763,
+   "mismatched": 0.00457693683641826,
+   "excess": 0.08801898560948937
+  },
+  "Llama-3.2-1B-Instruct|Qwen3-8B": {
+   "matched": 0.09948479199400348,
+   "mismatched": 0.0014297196356019887,
+   "excess": 0.0980550723584015
+  },
+  "Llama-3.2-1B-Instruct|gemma-2-27b-it": {
+   "matched": 0.05971393983467418,
+   "mismatched": 0.0047226001239533645,
+   "excess": 0.054991339710720816
+  },
+  "Llama-3.2-1B-Instruct|gemma-2-2b-it": {
+   "matched": 0.090598396134529,
+   "mismatched": 0.005812216615815686,
+   "excess": 0.08478617951871331
+  },
+  "Llama-3.2-1B-Instruct|gemma-2-9b-it": {
+   "matched": 0.08575006160536378,
+   "mismatched": 0.00611262182774217,
+   "excess": 0.07963743977762161
+  },
+  "Llama-3.2-1B-Instruct|internlm2_5-7b-chat": {
+   "matched": 0.08333208099306974,
+   "mismatched": 0.001982966732966733,
+   "excess": 0.08134911426010301
+  },
+  "Llama-3.2-1B-Instruct|phi-4": {
+   "matched": 0.17153889819362964,
+   "mismatched": 0.0050369983776024675,
+   "excess": 0.16650189981602717
+  },
+  "Llama-3.2-1B-Instruct|pythia-1.4b": {
+   "matched": 0.06434984327671593,
+   "mismatched": 0.00487912978044557,
+   "excess": 0.05947071349627036
+  },
+  "Llama-3.2-1B-Instruct|pythia-12b": {
+   "matched": 0.039185419796642196,
+   "mismatched": 0.0023230199545989016,
+   "excess": 0.03686239984204329
+  },
+  "Llama-3.2-1B-Instruct|pythia-6.9b": {
+   "matched": 0.03954744223877351,
+   "mismatched": 0.0029512628591575963,
+   "excess": 0.036596179379615915
+  },
+  "Llama-3.2-3B-Instruct|Ministral-8B-Instruct-2410": {
+   "matched": 0.1565132104272192,
+   "mismatched": 0.006966716446611334,
+   "excess": 0.14954649398060785
+  },
+  "Llama-3.2-3B-Instruct|Mistral-7B-Instruct-v0.3": {
+   "matched": 0.1929430465824745,
+   "mismatched": 0.006016282837615105,
+   "excess": 0.1869267637448594
+  },
+  "Llama-3.2-3B-Instruct|Phi-3.5-mini-instruct": {
+   "matched": 0.1584553216488866,
+   "mismatched": 0.00471470250487216,
+   "excess": 0.15374061914401443
+  },
+  "Llama-3.2-3B-Instruct|Qwen2.5-1.5B-Instruct": {
+   "matched": 0.08853062866096209,
+   "mismatched": 0.007349636484513623,
+   "excess": 0.08118099217644847
+  },
+  "Llama-3.2-3B-Instruct|Qwen2.5-14B": {
+   "matched": 0.08259698381495935,
+   "mismatched": 0.003078281589813473,
+   "excess": 0.07951870222514587
+  },
+  "Llama-3.2-3B-Instruct|Qwen2.5-32B-Instruct": {
+   "matched": 0.02554937464968571,
+   "mismatched": 0.0039680826662250816,
+   "excess": 0.021581291983460628
+  },
+  "Llama-3.2-3B-Instruct|Qwen2.5-3B-Instruct": {
+   "matched": 0.031731657259748844,
+   "mismatched": 0.004236539170303402,
+   "excess": 0.027495118089445443
+  },
+  "Llama-3.2-3B-Instruct|Qwen2.5-7B-Instruct": {
+   "matched": 0.03783422902545461,
+   "mismatched": 0.003926531966111762,
+   "excess": 0.033907697059342844
+  },
+  "Llama-3.2-3B-Instruct|Qwen2.5-Math-1.5B": {
+   "matched": 0.08967296075523197,
+   "mismatched": 0.008516648297926387,
+   "excess": 0.08115631245730559
+  },
+  "Llama-3.2-3B-Instruct|Qwen2.5-Math-7B": {
+   "matched": 0.05333522213731893,
+   "mismatched": 0.007417658093644936,
+   "excess": 0.04591756404367399
+  },
+  "Llama-3.2-3B-Instruct|Qwen3-0.6B": {
+   "matched": 0.06705240611445176,
+   "mismatched": 0.011962958554336635,
+   "excess": 0.05508944756011513
+  },
+  "Llama-3.2-3B-Instruct|Qwen3-1.7B": {
+   "matched": 0.10251403120691722,
+   "mismatched": 0.012721154454428354,
+   "excess": 0.08979287675248887
+  },
+  "Llama-3.2-3B-Instruct|Qwen3-14B": {
+   "matched": 0.1003284432047463,
+   "mismatched": 0.0028253561613662227,
+   "excess": 0.09750308704338008
+  },
+  "Llama-3.2-3B-Instruct|Qwen3-32B": {
+   "matched": 0.007216176644272619,
+   "mismatched": 0.001628558575926997,
+   "excess": 0.005587618068345622
+  },
+  "Llama-3.2-3B-Instruct|Qwen3-4B": {
+   "matched": 0.12863271465745219,
+   "mismatched": 0.012137368063744054,
+   "excess": 0.11649534659370814
+  },
+  "Llama-3.2-3B-Instruct|Qwen3-8B": {
+   "matched": 0.1307210141218192,
+   "mismatched": 0.0073828111948649,
+   "excess": 0.12333820292695429
+  },
+  "Llama-3.2-3B-Instruct|gemma-2-27b-it": {
+   "matched": 0.09163435339081454,
+   "mismatched": 0.0068517102049416275,
+   "excess": 0.0847826431858729
+  },
+  "Llama-3.2-3B-Instruct|gemma-2-2b-it": {
+   "matched": 0.1130290477466839,
+   "mismatched": 0.014699213121149841,
+   "excess": 0.09832983462553406
+  },
+  "Llama-3.2-3B-Instruct|gemma-2-9b-it": {
+   "matched": 0.12385310603998585,
+   "mismatched": 0.015973526295369106,
+   "excess": 0.10787957974461675
+  },
+  "Llama-3.2-3B-Instruct|internlm2_5-7b-chat": {
+   "matched": 0.13196270752928618,
+   "mismatched": 0.0024299074515792777,
+   "excess": 0.1295328000777069
+  },
+  "Llama-3.2-3B-Instruct|phi-4": {
+   "matched": 0.23237547422248792,
+   "mismatched": 0.006347668700483101,
+   "excess": 0.22602780552200483
+  },
+  "Llama-3.2-3B-Instruct|pythia-1.4b": {
+   "matched": 0.09060917366880994,
+   "mismatched": 0.006548247768255507,
+   "excess": 0.08406092590055443
+  },
+  "Llama-3.2-3B-Instruct|pythia-12b": {
+   "matched": 0.05859312568058036,
+   "mismatched": 0.006552154694569556,
+   "excess": 0.05204097098601081
+  },
+  "Llama-3.2-3B-Instruct|pythia-6.9b": {
+   "matched": 0.05729716425199315,
+   "mismatched": 0.007546443966248219,
+   "excess": 0.04975072028574493
+  },
+  "Ministral-8B-Instruct-2410|Mistral-7B-Instruct-v0.3": {
+   "matched": 0.1448163032710733,
+   "mismatched": 0.0045668552546455025,
+   "excess": 0.1402494480164278
+  },
+  "Ministral-8B-Instruct-2410|Phi-3.5-mini-instruct": {
+   "matched": 0.116549892548142,
+   "mismatched": 0.0038896790385074364,
+   "excess": 0.11266021350963457
+  },
+  "Ministral-8B-Instruct-2410|Qwen2.5-1.5B-Instruct": {
+   "matched": 0.06002573903279017,
+   "mismatched": 0.01046970423230036,
+   "excess": 0.04955603480048981
+  },
+  "Ministral-8B-Instruct-2410|Qwen2.5-14B": {
+   "matched": 0.06096289109906152,
+   "mismatched": 0.0025202912016426215,
+   "excess": 0.0584425998974189
+  },
+  "Ministral-8B-Instruct-2410|Qwen2.5-32B-Instruct": {
+   "matched": 0.028403047687202938,
+   "mismatched": 0.00907566957347243,
+   "excess": 0.019327378113730507
+  },
+  "Ministral-8B-Instruct-2410|Qwen2.5-3B-Instruct": {
+   "matched": 0.015584078696893966,
+   "mismatched": 0.0001388888888888889,
+   "excess": 0.015445189808005078
+  },
+  "Ministral-8B-Instruct-2410|Qwen2.5-7B-Instruct": {
+   "matched": 0.03301721457390762,
+   "mismatched": 0.006802457996178034,
+   "excess": 0.026214756577729585
+  },
+  "Ministral-8B-Instruct-2410|Qwen2.5-Math-1.5B": {
+   "matched": 0.07449260305329221,
+   "mismatched": 0.010780958716717231,
+   "excess": 0.06371164433657497
+  },
+  "Ministral-8B-Instruct-2410|Qwen2.5-Math-7B": {
+   "matched": 0.0511732687220284,
+   "mismatched": 0.005549206023664228,
+   "excess": 0.04562406269836418
+  },
+  "Ministral-8B-Instruct-2410|Qwen3-0.6B": {
+   "matched": 0.06509913708274255,
+   "mismatched": 0.019408957638346932,
+   "excess": 0.045690179444395615
+  },
+  "Ministral-8B-Instruct-2410|Qwen3-1.7B": {
+   "matched": 0.061944995761991944,
+   "mismatched": 0.008379954201673466,
+   "excess": 0.05356504156031848
+  },
+  "Ministral-8B-Instruct-2410|Qwen3-14B": {
+   "matched": 0.06907454131323415,
+   "mismatched": 0.003364858525849238,
+   "excess": 0.06570968278738491
+  },
+  "Ministral-8B-Instruct-2410|Qwen3-32B": {
+   "matched": 0.006473170134470443,
+   "mismatched": 0.0006547032862822336,
+   "excess": 0.005818466848188209
+  },
+  "Ministral-8B-Instruct-2410|Qwen3-4B": {
+   "matched": 0.09343926698965516,
+   "mismatched": 0.007168095008845783,
+   "excess": 0.08627117198080937
+  },
+  "Ministral-8B-Instruct-2410|Qwen3-8B": {
+   "matched": 0.07623472226901216,
+   "mismatched": 0.0027038749527139617,
+   "excess": 0.0735308473162982
+  },
+  "Ministral-8B-Instruct-2410|gemma-2-27b-it": {
+   "matched": 0.09349845370244646,
+   "mismatched": 0.00849834580949132,
+   "excess": 0.08500010789295513
+  },
+  "Ministral-8B-Instruct-2410|gemma-2-2b-it": {
+   "matched": 0.09998233141076508,
+   "mismatched": 0.019818597848599472,
+   "excess": 0.0801637335621656
+  },
+  "Ministral-8B-Instruct-2410|gemma-2-9b-it": {
+   "matched": 0.12320528931494043,
+   "mismatched": 0.02209551994737902,
+   "excess": 0.10110976936756141
+  },
+  "Ministral-8B-Instruct-2410|internlm2_5-7b-chat": {
+   "matched": 0.10315136499211554,
+   "mismatched": 0.0018887308360992572,
+   "excess": 0.10126263415601629
+  },
+  "Ministral-8B-Instruct-2410|phi-4": {
+   "matched": 0.13576125720622292,
+   "mismatched": 0.00572671923919989,
+   "excess": 0.13003453796702302
+  },
+  "Ministral-8B-Instruct-2410|pythia-1.4b": {
+   "matched": 0.09524189628253138,
+   "mismatched": 0.02583491464112594,
+   "excess": 0.06940698164140544
+  },
+  "Ministral-8B-Instruct-2410|pythia-12b": {
+   "matched": 0.08663521010031262,
+   "mismatched": 0.03388348240051027,
+   "excess": 0.05275172769980235
+  },
+  "Ministral-8B-Instruct-2410|pythia-6.9b": {
+   "matched": 0.08643071319527072,
+   "mismatched": 0.02376922575876436,
+   "excess": 0.06266148743650636
+  },
+  "Mistral-7B-Instruct-v0.3|Phi-3.5-mini-instruct": {
+   "matched": 0.23441700181042446,
+   "mismatched": 0.0045627018761693686,
+   "excess": 0.2298542999342551
+  },
+  "Mistral-7B-Instruct-v0.3|Qwen2.5-1.5B-Instruct": {
+   "matched": 0.08172653931578944,
+   "mismatched": 0.007402544230639582,
+   "excess": 0.07432399508514985
+  },
+  "Mistral-7B-Instruct-v0.3|Qwen2.5-14B": {
+   "matched": 0.057089983587478826,
+   "mismatched": 0.0018152687112192771,
+   "excess": 0.05527471487625955
+  },
+  "Mistral-7B-Instruct-v0.3|Qwen2.5-32B-Instruct": {
+   "matched": 0.023628339313228355,
+   "mismatched": 0.002897442410600305,
+   "excess": 0.02073089690262805
+  },
+  "Mistral-7B-Instruct-v0.3|Qwen2.5-3B-Instruct": {
+   "matched": 0.024169115826818313,
+   "mismatched": 0.002489050365501604,
+   "excess": 0.02168006546131671
+  },
+  "Mistral-7B-Instruct-v0.3|Qwen2.5-7B-Instruct": {
+   "matched": 0.028931619428629266,
+   "mismatched": 0.0028561823076141963,
+   "excess": 0.02607543712101507
+  },
+  "Mistral-7B-Instruct-v0.3|Qwen2.5-Math-1.5B": {
+   "matched": 0.07875502114729775,
+   "mismatched": 0.00649582986666965,
+   "excess": 0.0722591912806281
+  },
+  "Mistral-7B-Instruct-v0.3|Qwen2.5-Math-7B": {
+   "matched": 0.04698246987928566,
+   "mismatched": 0.004161345162312655,
+   "excess": 0.042821124716973004
+  },
+  "Mistral-7B-Instruct-v0.3|Qwen3-0.6B": {
+   "matched": 0.06583341917361551,
+   "mismatched": 0.009435715065870862,
+   "excess": 0.05639770410774465
+  },
+  "Mistral-7B-Instruct-v0.3|Qwen3-1.7B": {
+   "matched": 0.08581946688157827,
+   "mismatched": 0.006699370569980909,
+   "excess": 0.07912009631159736
+  },
+  "Mistral-7B-Instruct-v0.3|Qwen3-14B": {
+   "matched": 0.07089541287381258,
+   "mismatched": 0.002805266723997374,
+   "excess": 0.0680901461498152
+  },
+  "Mistral-7B-Instruct-v0.3|Qwen3-32B": {
+   "matched": 0.003918538593770792,
+   "mismatched": 0.00041688116688116684,
+   "excess": 0.0035016574268896252
+  },
+  "Mistral-7B-Instruct-v0.3|Qwen3-4B": {
+   "matched": 0.10772551215356561,
+   "mismatched": 0.007332136741404693,
+   "excess": 0.10039337541216092
+  },
+  "Mistral-7B-Instruct-v0.3|Qwen3-8B": {
+   "matched": 0.10062944561994194,
+   "mismatched": 0.0037762245868863515,
+   "excess": 0.09685322103305559
+  },
+  "Mistral-7B-Instruct-v0.3|gemma-2-27b-it": {
+   "matched": 0.07763996035364326,
+   "mismatched": 0.00415010635289273,
+   "excess": 0.07348985400075053
+  },
+  "Mistral-7B-Instruct-v0.3|gemma-2-2b-it": {
+   "matched": 0.10504740024709011,
+   "mismatched": 0.010931409241081666,
+   "excess": 0.09411599100600844
+  },
+  "Mistral-7B-Instruct-v0.3|gemma-2-9b-it": {
+   "matched": 0.1270639734183684,
+   "mismatched": 0.009363559740494725,
+   "excess": 0.11770041367787366
+  },
+  "Mistral-7B-Instruct-v0.3|internlm2_5-7b-chat": {
+   "matched": 0.13960896733110462,
+   "mismatched": 0.0022883101172574854,
+   "excess": 0.13732065721384712
+  },
+  "Mistral-7B-Instruct-v0.3|phi-4": {
+   "matched": 0.17936692105604324,
+   "mismatched": 0.006871246487732555,
+   "excess": 0.1724956745683107
+  },
+  "Mistral-7B-Instruct-v0.3|pythia-1.4b": {
+   "matched": 0.10149628502858363,
+   "mismatched": 0.010257592149704278,
+   "excess": 0.09123869287887935
+  },
+  "Mistral-7B-Instruct-v0.3|pythia-12b": {
+   "matched": 0.06979069351906399,
+   "mismatched": 0.007769439359996635,
+   "excess": 0.062021254159067354
+  },
+  "Mistral-7B-Instruct-v0.3|pythia-6.9b": {
+   "matched": 0.07189879347245057,
+   "mismatched": 0.005837922875567041,
+   "excess": 0.06606087059688352
+  },
+  "Phi-3.5-mini-instruct|Qwen2.5-1.5B-Instruct": {
+   "matched": 0.08997331693426512,
+   "mismatched": 0.01212379411736336,
+   "excess": 0.07784952281690176
+  },
+  "Phi-3.5-mini-instruct|Qwen2.5-14B": {
+   "matched": 0.05771348896334278,
+   "mismatched": 0.009058227963557286,
+   "excess": 0.048655260999785496
+  },
+  "Phi-3.5-mini-instruct|Qwen2.5-32B-Instruct": {
+   "matched": 0.025991627531330573,
+   "mismatched": 0.00900716049050897,
+   "excess": 0.016984467040821603
+  },
+  "Phi-3.5-mini-instruct|Qwen2.5-3B-Instruct": {
+   "matched": 0.02667449632827986,
+   "mismatched": 0.0035303335832554106,
+   "excess": 0.02314416274502445
+  },
+  "Phi-3.5-mini-instruct|Qwen2.5-7B-Instruct": {
+   "matched": 0.031617603386957883,
+   "mismatched": 0.0064356522318390645,
+   "excess": 0.025181951155118818
+  },
+  "Phi-3.5-mini-instruct|Qwen2.5-Math-1.5B": {
+   "matched": 0.07749743011984137,
+   "mismatched": 0.008400821272822047,
+   "excess": 0.06909660884701932
+  },
+  "Phi-3.5-mini-instruct|Qwen2.5-Math-7B": {
+   "matched": 0.04374227729897083,
+   "mismatched": 0.005841251595121564,
+   "excess": 0.03790102570384927
+  },
+  "Phi-3.5-mini-instruct|Qwen3-0.6B": {
+   "matched": 0.0737188324376849,
+   "mismatched": 0.014571633208772385,
+   "excess": 0.05914719922891251
+  },
+  "Phi-3.5-mini-instruct|Qwen3-1.7B": {
+   "matched": 0.09732344402139205,
+   "mismatched": 0.010764585971285021,
+   "excess": 0.08655885805010703
+  },
+  "Phi-3.5-mini-instruct|Qwen3-14B": {
+   "matched": 0.06760726675915879,
+   "mismatched": 0.004729867845966917,
+   "excess": 0.06287739891319187
+  },
+  "Phi-3.5-mini-instruct|Qwen3-32B": {
+   "matched": 0.0038725389937614044,
+   "mismatched": 0.0005266805266805267,
+   "excess": 0.0033458584670808776
+  },
+  "Phi-3.5-mini-instruct|Qwen3-4B": {
+   "matched": 0.11137885203613854,
+   "mismatched": 0.014666928939665006,
+   "excess": 0.09671192309647353
+  },
+  "Phi-3.5-mini-instruct|Qwen3-8B": {
+   "matched": 0.1051286388093359,
+   "mismatched": 0.008902469101797475,
+   "excess": 0.09622616970753843
+  },
+  "Phi-3.5-mini-instruct|gemma-2-27b-it": {
+   "matched": 0.0613762064596207,
+   "mismatched": 0.0022933681223154907,
+   "excess": 0.05908283833730521
+  },
+  "Phi-3.5-mini-instruct|gemma-2-2b-it": {
+   "matched": 0.08693797195191931,
+   "mismatched": 0.006168722075939568,
+   "excess": 0.08076924987597975
+  },
+  "Phi-3.5-mini-instruct|gemma-2-9b-it": {
+   "matched": 0.10707404229822724,
+   "mismatched": 0.008243183041170657,
+   "excess": 0.09883085925705659
+  },
+  "Phi-3.5-mini-instruct|internlm2_5-7b-chat": {
+   "matched": 0.10687880928427078,
+   "mismatched": 0.0034591288832774903,
+   "excess": 0.1034196804009933
+  },
+  "Phi-3.5-mini-instruct|phi-4": {
+   "matched": 0.18720318784729723,
+   "mismatched": 0.00949644598051572,
+   "excess": 0.1777067418667815
+  },
+  "Phi-3.5-mini-instruct|pythia-1.4b": {
+   "matched": 0.09924872778270227,
+   "mismatched": 0.007100093442198705,
+   "excess": 0.09214863434050356
+  },
+  "Phi-3.5-mini-instruct|pythia-12b": {
+   "matched": 0.064325901998187,
+   "mismatched": 0.009298175495968364,
+   "excess": 0.055027726502218634
+  },
+  "Phi-3.5-mini-instruct|pythia-6.9b": {
+   "matched": 0.06572331715761051,
+   "mismatched": 0.007287748717315281,
+   "excess": 0.05843556844029523
+  },
+  "Qwen2.5-1.5B-Instruct|Qwen2.5-14B": {
+   "matched": 0.22203844256274483,
+   "mismatched": 0.10690856861920833,
+   "excess": 0.11512987394353649
+  },
+  "Qwen2.5-1.5B-Instruct|Qwen2.5-32B-Instruct": {
+   "matched": 0.12746185574130417,
+   "mismatched": 0.08133610550814473,
+   "excess": 0.04612575023315944
+  },
+  "Qwen2.5-1.5B-Instruct|Qwen2.5-3B-Instruct": {
+   "matched": 0.1989970315914086,
+   "mismatched": 0.09707291103671015,
+   "excess": 0.10192412055469846
+  },
+  "Qwen2.5-1.5B-Instruct|Qwen2.5-7B-Instruct": {
+   "matched": 0.1440650754104072,
+   "mismatched": 0.07662938009726958,
+   "excess": 0.06743569531313762
+  },
+  "Qwen2.5-1.5B-Instruct|Qwen2.5-Math-1.5B": {
+   "matched": 0.16271530385735206,
+   "mismatched": 0.05236492570376818,
+   "excess": 0.11035037815358387
+  },
+  "Qwen2.5-1.5B-Instruct|Qwen2.5-Math-7B": {
+   "matched": 0.10631923987672391,
+   "mismatched": 0.03485336320501909,
+   "excess": 0.07146587667170481
+  },
+  "Qwen2.5-1.5B-Instruct|Qwen3-0.6B": {
+   "matched": 0.3090731462146939,
+   "mismatched": 0.1348435918635579,
+   "excess": 0.174229554351136
+  },
+  "Qwen2.5-1.5B-Instruct|Qwen3-1.7B": {
+   "matched": 0.34003501167619343,
+   "mismatched": 0.140966799372972,
+   "excess": 0.19906821230322144
+  },
+  "Qwen2.5-1.5B-Instruct|Qwen3-14B": {
+   "matched": 0.16529863765991962,
+   "mismatched": 0.06995657428621453,
+   "excess": 0.09534206337370509
+  },
+  "Qwen2.5-1.5B-Instruct|Qwen3-32B": {
+   "matched": 0.017192636388826343,
+   "mismatched": 0.004272715307545028,
+   "excess": 0.012919921081281316
+  },
+  "Qwen2.5-1.5B-Instruct|Qwen3-4B": {
+   "matched": 0.3005496323662189,
+   "mismatched": 0.13056922659426118,
+   "excess": 0.16998040577195772
+  },
+  "Qwen2.5-1.5B-Instruct|Qwen3-8B": {
+   "matched": 0.2765425075017692,
+   "mismatched": 0.12500996353343566,
+   "excess": 0.15153254396833352
+  },
+  "Qwen2.5-1.5B-Instruct|gemma-2-27b-it": {
+   "matched": 0.04374202555710065,
+   "mismatched": 0.0031645293180797025,
+   "excess": 0.040577496239020946
+  },
+  "Qwen2.5-1.5B-Instruct|gemma-2-2b-it": {
+   "matched": 0.1050564319781055,
+   "mismatched": 0.02249581532177121,
+   "excess": 0.0825606166563343
+  },
+  "Qwen2.5-1.5B-Instruct|gemma-2-9b-it": {
+   "matched": 0.09900605197012811,
+   "mismatched": 0.02010913769615765,
+   "excess": 0.07889691427397047
+  },
+  "Qwen2.5-1.5B-Instruct|internlm2_5-7b-chat": {
+   "matched": 0.06922288601476356,
+   "mismatched": 0.01564270689075006,
+   "excess": 0.0535801791240135
+  },
+  "Qwen2.5-1.5B-Instruct|phi-4": {
+   "matched": 0.1379117048940166,
+   "mismatched": 0.04047762949638723,
+   "excess": 0.09743407539762938
+  },
+  "Qwen2.5-1.5B-Instruct|pythia-1.4b": {
+   "matched": 0.07049175096613358,
+   "mismatched": 0.013404920903310498,
+   "excess": 0.057086830062823085
+  },
+  "Qwen2.5-1.5B-Instruct|pythia-12b": {
+   "matched": 0.05521864348016105,
+   "mismatched": 0.01986470030196957,
+   "excess": 0.035353943178191474
+  },
+  "Qwen2.5-1.5B-Instruct|pythia-6.9b": {
+   "matched": 0.049198922323929764,
+   "mismatched": 0.014581065338321531,
+   "excess": 0.034617856985608236
+  },
+  "Qwen2.5-14B|Qwen2.5-32B-Instruct": {
+   "matched": 0.15228916296502631,
+   "mismatched": 0.06546604140015709,
+   "excess": 0.08682312156486922
+  },
+  "Qwen2.5-14B|Qwen2.5-3B-Instruct": {
+   "matched": 0.17542436005174641,
+   "mismatched": 0.10237911740478355,
+   "excess": 0.07304524264696287
+  },
+  "Qwen2.5-14B|Qwen2.5-7B-Instruct": {
+   "matched": 0.1270722767264435,
+   "mismatched": 0.06768292210930697,
+   "excess": 0.05938935461713653
+  },
+  "Qwen2.5-14B|Qwen2.5-Math-1.5B": {
+   "matched": 0.08006461385611963,
+   "mismatched": 0.03194988838190695,
+   "excess": 0.04811472547421267
+  },
+  "Qwen2.5-14B|Qwen2.5-Math-7B": {
+   "matched": 0.0738817395274069,
+   "mismatched": 0.035002641183002836,
+   "excess": 0.03887909834440406
+  },
+  "Qwen2.5-14B|Qwen3-0.6B": {
+   "matched": 0.18518458587348854,
+   "mismatched": 0.13053887660577224,
+   "excess": 0.05464570926771631
+  },
+  "Qwen2.5-14B|Qwen3-1.7B": {
+   "matched": 0.23128132514233965,
+   "mismatched": 0.1333374204376704,
+   "excess": 0.09794390470466924
+  },
+  "Qwen2.5-14B|Qwen3-14B": {
+   "matched": 0.2277027643245064,
+   "mismatched": 0.060403426094754645,
+   "excess": 0.16729933822975174
+  },
+  "Qwen2.5-14B|Qwen3-32B": {
+   "matched": 0.029841243518668622,
+   "mismatched": 0.006443589418047621,
+   "excess": 0.023397654100621
+  },
+  "Qwen2.5-14B|Qwen3-4B": {
+   "matched": 0.23365098686882993,
+   "mismatched": 0.09931359332359803,
+   "excess": 0.1343373935452319
+  },
+  "Qwen2.5-14B|Qwen3-8B": {
+   "matched": 0.26958501527350237,
+   "mismatched": 0.11088779541613661,
+   "excess": 0.15869721985736576
+  },
+  "Qwen2.5-14B|gemma-2-27b-it": {
+   "matched": 0.040744387305500375,
+   "mismatched": 0.0005926916221033868,
+   "excess": 0.040151695683396986
+  },
+  "Qwen2.5-14B|gemma-2-2b-it": {
+   "matched": 0.040940599188745895,
+   "mismatched": 0.005075145556376206,
+   "excess": 0.03586545363236969
+  },
+  "Qwen2.5-14B|gemma-2-9b-it": {
+   "matched": 0.0507506431369914,
+   "mismatched": 0.004714493601499868,
+   "excess": 0.04603614953549153
+  },
+  "Qwen2.5-14B|internlm2_5-7b-chat": {
+   "matched": 0.10199907094705603,
+   "mismatched": 0.008694325285451755,
+   "excess": 0.09330474566160427
+  },
+  "Qwen2.5-14B|phi-4": {
+   "matched": 0.11725676937778554,
+   "mismatched": 0.034065279214806066,
+   "excess": 0.08319149016297947
+  },
+  "Qwen2.5-14B|pythia-1.4b": {
+   "matched": 0.029387235519642615,
+   "mismatched": 0.002981644672047149,
+   "excess": 0.026405590847595466
+  },
+  "Qwen2.5-14B|pythia-12b": {
+   "matched": 0.024353936671334057,
+   "mismatched": 0.0030504538742735336,
+   "excess": 0.021303482797060524
+  },
+  "Qwen2.5-14B|pythia-6.9b": {
+   "matched": 0.024290313362571928,
+   "mismatched": 0.0022360913066214925,
+   "excess": 0.022054222055950437
+  },
+  "Qwen2.5-32B-Instruct|Qwen2.5-3B-Instruct": {
+   "matched": 0.09430472564115117,
+   "mismatched": 0.050604433437051684,
+   "excess": 0.04370029220409948
+  },
+  "Qwen2.5-32B-Instruct|Qwen2.5-7B-Instruct": {
+   "matched": 0.1117443381059823,
+   "mismatched": 0.054077131922543833,
+   "excess": 0.05766720618343847
+  },
+  "Qwen2.5-32B-Instruct|Qwen2.5-Math-1.5B": {
+   "matched": 0.05939492828271492,
+   "mismatched": 0.02691896636664172,
+   "excess": 0.0324759619160732
+  },
+  "Qwen2.5-32B-Instruct|Qwen2.5-Math-7B": {
+   "matched": 0.058408881326730284,
+   "mismatched": 0.02851228526672163,
+   "excess": 0.029896596060008655
+  },
+  "Qwen2.5-32B-Instruct|Qwen3-0.6B": {
+   "matched": 0.13497195967098627,
+   "mismatched": 0.08060190597344326,
+   "excess": 0.05437005369754301
+  },
+  "Qwen2.5-32B-Instruct|Qwen3-1.7B": {
+   "matched": 0.12236102261154581,
+   "mismatched": 0.07114023653954898,
+   "excess": 0.05122078607199683
+  },
+  "Qwen2.5-32B-Instruct|Qwen3-14B": {
+   "matched": 0.11142344337486222,
+   "mismatched": 0.045697434924362776,
+   "excess": 0.06572600845049945
+  },
+  "Qwen2.5-32B-Instruct|Qwen3-32B": {
+   "matched": 0.04258969693128537,
+   "mismatched": 0.00967778532329616,
+   "excess": 0.03291191160798921
+  },
+  "Qwen2.5-32B-Instruct|Qwen3-4B": {
+   "matched": 0.13194535877156338,
+   "mismatched": 0.07022514163799937,
+   "excess": 0.061720217133564015
+  },
+  "Qwen2.5-32B-Instruct|Qwen3-8B": {
+   "matched": 0.12278770113215702,
+   "mismatched": 0.07002426053931446,
+   "excess": 0.05276344059284256
+  },
+  "Qwen2.5-32B-Instruct|gemma-2-27b-it": {
+   "matched": 0.02004448163141035,
+   "mismatched": 0.0023222959461349554,
+   "excess": 0.017722185685275393
+  },
+  "Qwen2.5-32B-Instruct|gemma-2-2b-it": {
+   "matched": 0.03226072125013097,
+   "mismatched": 0.009544742388395639,
+   "excess": 0.022715978861735334
+  },
+  "Qwen2.5-32B-Instruct|gemma-2-9b-it": {
+   "matched": 0.03977300287699532,
+   "mismatched": 0.015541525466254567,
+   "excess": 0.02423147741074075
+  },
+  "Qwen2.5-32B-Instruct|internlm2_5-7b-chat": {
+   "matched": 0.0359547722937716,
+   "mismatched": 0.012417540648866758,
+   "excess": 0.023537231644904844
+  },
+  "Qwen2.5-32B-Instruct|phi-4": {
+   "matched": 0.047530524782307654,
+   "mismatched": 0.025662261053697767,
+   "excess": 0.021868263728609887
+  },
+  "Qwen2.5-32B-Instruct|pythia-1.4b": {
+   "matched": 0.04396982300256163,
+   "mismatched": 0.01898955618963359,
+   "excess": 0.02498026681292804
+  },
+  "Qwen2.5-32B-Instruct|pythia-12b": {
+   "matched": 0.05255182178317507,
+   "mismatched": 0.033380122025930534,
+   "excess": 0.01917169975724454
+  },
+  "Qwen2.5-32B-Instruct|pythia-6.9b": {
+   "matched": 0.04424983640302915,
+   "mismatched": 0.026394398482924023,
+   "excess": 0.01785543792010513
+  },
+  "Qwen2.5-3B-Instruct|Qwen2.5-7B-Instruct": {
+   "matched": 0.09017765932780704,
+   "mismatched": 0.05478924099232442,
+   "excess": 0.03538841833548262
+  },
+  "Qwen2.5-3B-Instruct|Qwen2.5-Math-1.5B": {
+   "matched": 0.07235794895852006,
+   "mismatched": 0.033974587855624946,
+   "excess": 0.038383361102895114
+  },
+  "Qwen2.5-3B-Instruct|Qwen2.5-Math-7B": {
+   "matched": 0.07220002305913911,
+   "mismatched": 0.03416739686579449,
+   "excess": 0.038032626193344625
+  },
+  "Qwen2.5-3B-Instruct|Qwen3-0.6B": {
+   "matched": 0.16431974952529543,
+   "mismatched": 0.11992148066674056,
+   "excess": 0.04439826885855487
+  },
+  "Qwen2.5-3B-Instruct|Qwen3-1.7B": {
+   "matched": 0.21548175838021025,
+   "mismatched": 0.12569600407864354,
+   "excess": 0.08978575430156671
+  },
+  "Qwen2.5-3B-Instruct|Qwen3-14B": {
+   "matched": 0.13262047059364152,
+   "mismatched": 0.049247764243302204,
+   "excess": 0.0833727063503393
+  },
+  "Qwen2.5-3B-Instruct|Qwen3-32B": {
+   "matched": 0.027269249065766096,
+   "mismatched": 0.005823032237312422,
+   "excess": 0.021446216828453674
+  },
+  "Qwen2.5-3B-Instruct|Qwen3-4B": {
+   "matched": 0.16640714972791276,
+   "mismatched": 0.10084527727062724,
+   "excess": 0.06556187245728552
+  },
+  "Qwen2.5-3B-Instruct|Qwen3-8B": {
+   "matched": 0.20280314965389468,
+   "mismatched": 0.1196034640013659,
+   "excess": 0.08319968565252878
+  },
+  "Qwen2.5-3B-Instruct|gemma-2-27b-it": {
+   "matched": 0.014588892557921784,
+   "mismatched": 0.001993236588437827,
+   "excess": 0.012595655969483957
+  },
+  "Qwen2.5-3B-Instruct|gemma-2-2b-it": {
+   "matched": 0.03269221171536257,
+   "mismatched": 0.004042183199497441,
+   "excess": 0.028650028515865126
+  },
+  "Qwen2.5-3B-Instruct|gemma-2-9b-it": {
+   "matched": 0.022596557856554084,
+   "mismatched": 0.001611991086371267,
+   "excess": 0.020984566770182816
+  },
+  "Qwen2.5-3B-Instruct|internlm2_5-7b-chat": {
+   "matched": 0.03681500991275343,
+   "mismatched": 0.008375852857111597,
+   "excess": 0.028439157055641835
+  },
+  "Qwen2.5-3B-Instruct|phi-4": {
+   "matched": 0.06465805680965535,
+   "mismatched": 0.031664350509345074,
+   "excess": 0.032993706300310274
+  },
+  "Qwen2.5-3B-Instruct|pythia-1.4b": {
+   "matched": 0.013699693792100646,
+   "mismatched": 0.0018219975395865487,
+   "excess": 0.011877696252514097
+  },
+  "Qwen2.5-3B-Instruct|pythia-12b": {
+   "matched": 0.007200108400882394,
+   "mismatched": 0.0010897757213546686,
+   "excess": 0.006110332679527725
+  },
+  "Qwen2.5-3B-Instruct|pythia-6.9b": {
+   "matched": 0.007162784281065515,
+   "mismatched": 0.0014735991051780522,
+   "excess": 0.005689185175887463
+  },
+  "Qwen2.5-7B-Instruct|Qwen2.5-Math-1.5B": {
+   "matched": 0.06869935314738825,
+   "mismatched": 0.029895122981218165,
+   "excess": 0.03880423016617008
+  },
+  "Qwen2.5-7B-Instruct|Qwen2.5-Math-7B": {
+   "matched": 0.0743386403386091,
+   "mismatched": 0.027404130482730563,
+   "excess": 0.046934509855878534
+  },
+  "Qwen2.5-7B-Instruct|Qwen3-0.6B": {
+   "matched": 0.1374219617266068,
+   "mismatched": 0.08871552680210325,
+   "excess": 0.048706434924503564
+  },
+  "Qwen2.5-7B-Instruct|Qwen3-1.7B": {
+   "matched": 0.14441574919922784,
+   "mismatched": 0.08050155090131195,
+   "excess": 0.06391419829791589
+  },
+  "Qwen2.5-7B-Instruct|Qwen3-14B": {
+   "matched": 0.09221787397945667,
+   "mismatched": 0.036354526700318766,
+   "excess": 0.05586334727913791
+  },
+  "Qwen2.5-7B-Instruct|Qwen3-32B": {
+   "matched": 0.020551894508628255,
+   "mismatched": 0.0049826590515445,
+   "excess": 0.015569235457083755
+  },
+  "Qwen2.5-7B-Instruct|Qwen3-4B": {
+   "matched": 0.14498860031893035,
+   "mismatched": 0.07674714191334038,
+   "excess": 0.06824145840558997
+  },
+  "Qwen2.5-7B-Instruct|Qwen3-8B": {
+   "matched": 0.12321860664239993,
+   "mismatched": 0.06694117741194561,
+   "excess": 0.056277429230454326
+  },
+  "Qwen2.5-7B-Instruct|gemma-2-27b-it": {
+   "matched": 0.027997531994081476,
+   "mismatched": 0.0028047476448492623,
+   "excess": 0.025192784349232215
+  },
+  "Qwen2.5-7B-Instruct|gemma-2-2b-it": {
+   "matched": 0.04591417067851711,
+   "mismatched": 0.010553885743039842,
+   "excess": 0.035360284935477264
+  },
+  "Qwen2.5-7B-Instruct|gemma-2-9b-it": {
+   "matched": 0.049579134735596636,
+   "mismatched": 0.014060398489256599,
+   "excess": 0.03551873624634004
+  },
+  "Qwen2.5-7B-Instruct|internlm2_5-7b-chat": {
+   "matched": 0.03768202738517819,
+   "mismatched": 0.00755923838489628,
+   "excess": 0.030122789000281907
+  },
+  "Qwen2.5-7B-Instruct|phi-4": {
+   "matched": 0.05926880942634618,
+   "mismatched": 0.023907040708800467,
+   "excess": 0.03536176871754571
+  },
+  "Qwen2.5-7B-Instruct|pythia-1.4b": {
+   "matched": 0.0373188337511736,
+   "mismatched": 0.011139694189460743,
+   "excess": 0.026179139561712854
+  },
+  "Qwen2.5-7B-Instruct|pythia-12b": {
+   "matched": 0.03862226455545985,
+   "mismatched": 0.01738919653004156,
+   "excess": 0.02123306802541829
+  },
+  "Qwen2.5-7B-Instruct|pythia-6.9b": {
+   "matched": 0.0335414534128091,
+   "mismatched": 0.012604911442662991,
+   "excess": 0.020936541970146105
+  },
+  "Qwen2.5-Math-1.5B|Qwen2.5-Math-7B": {
+   "matched": 0.11416229323583846,
+   "mismatched": 0.027106005851361886,
+   "excess": 0.08705628738447657
+  },
+  "Qwen2.5-Math-1.5B|Qwen3-0.6B": {
+   "matched": 0.14735439230637343,
+   "mismatched": 0.057102073220676036,
+   "excess": 0.09025231908569739
+  },
+  "Qwen2.5-Math-1.5B|Qwen3-1.7B": {
+   "matched": 0.13918865233369196,
+   "mismatched": 0.05111825554755651,
+   "excess": 0.08807039678613546
+  },
+  "Qwen2.5-Math-1.5B|Qwen3-14B": {
+   "matched": 0.08434280117093383,
+   "mismatched": 0.026275619730146967,
+   "excess": 0.05806718144078686
+  },
+  "Qwen2.5-Math-1.5B|Qwen3-32B": {
+   "matched": 0.009046656836130519,
+   "mismatched": 0.0019886536333904754,
+   "excess": 0.007058003202740044
+  },
+  "Qwen2.5-Math-1.5B|Qwen3-4B": {
+   "matched": 0.16401494890715082,
+   "mismatched": 0.058631893747386137,
+   "excess": 0.10538305515976468
+  },
+  "Qwen2.5-Math-1.5B|Qwen3-8B": {
+   "matched": 0.12120040161462947,
+   "mismatched": 0.049485726453566324,
+   "excess": 0.07171467516106314
+  },
+  "Qwen2.5-Math-1.5B|gemma-2-27b-it": {
+   "matched": 0.05540071435201206,
+   "mismatched": 0.0064206678951261,
+   "excess": 0.04898004645688596
+  },
+  "Qwen2.5-Math-1.5B|gemma-2-2b-it": {
+   "matched": 0.12010948908369307,
+   "mismatched": 0.025808490225264043,
+   "excess": 0.09430099885842902
+  },
+  "Qwen2.5-Math-1.5B|gemma-2-9b-it": {
+   "matched": 0.09893474914236261,
+   "mismatched": 0.02229990909570764,
+   "excess": 0.07663484004665497
+  },
+  "Qwen2.5-Math-1.5B|internlm2_5-7b-chat": {
+   "matched": 0.05716574978825011,
+   "mismatched": 0.007737046113013606,
+   "excess": 0.04942870367523651
+  },
+  "Qwen2.5-Math-1.5B|phi-4": {
+   "matched": 0.10260925422104328,
+   "mismatched": 0.02198552733396811,
+   "excess": 0.08062372688707517
+  },
+  "Qwen2.5-Math-1.5B|pythia-1.4b": {
+   "matched": 0.09143630803612353,
+   "mismatched": 0.028049306341198753,
+   "excess": 0.06338700169492478
+  },
+  "Qwen2.5-Math-1.5B|pythia-12b": {
+   "matched": 0.06830487510113789,
+   "mismatched": 0.023942059145725628,
+   "excess": 0.04436281595541226
+  },
+  "Qwen2.5-Math-1.5B|pythia-6.9b": {
+   "matched": 0.06477150821055244,
+   "mismatched": 0.024324746310714556,
+   "excess": 0.04044676189983788
+  },
+  "Qwen2.5-Math-7B|Qwen3-0.6B": {
+   "matched": 0.11071944364599992,
+   "mismatched": 0.056814686838495866,
+   "excess": 0.053904756807504055
+  },
+  "Qwen2.5-Math-7B|Qwen3-1.7B": {
+   "matched": 0.10653986945951664,
+   "mismatched": 0.0546985749362962,
+   "excess": 0.05184129452322044
+  },
+  "Qwen2.5-Math-7B|Qwen3-14B": {
+   "matched": 0.07643813816751663,
+   "mismatched": 0.02544167345502754,
+   "excess": 0.05099646471248909
+  },
+  "Qwen2.5-Math-7B|Qwen3-32B": {
+   "matched": 0.011614446398347326,
+   "mismatched": 0.0027846773899405475,
+   "excess": 0.008829769008406778
+  },
+  "Qwen2.5-Math-7B|Qwen3-4B": {
+   "matched": 0.12095692954525065,
+   "mismatched": 0.05622524488665563,
+   "excess": 0.06473168465859502
+  },
+  "Qwen2.5-Math-7B|Qwen3-8B": {
+   "matched": 0.10287179710232955,
+   "mismatched": 0.04873724201738106,
+   "excess": 0.05413455508494849
+  },
+  "Qwen2.5-Math-7B|gemma-2-27b-it": {
+   "matched": 0.037183053772753535,
+   "mismatched": 0.007032899537383364,
+   "excess": 0.030150154235370173
+  },
+  "Qwen2.5-Math-7B|gemma-2-2b-it": {
+   "matched": 0.07115206803580339,
+   "mismatched": 0.014388021295916032,
+   "excess": 0.05676404673988736
+  },
+  "Qwen2.5-Math-7B|gemma-2-9b-it": {
+   "matched": 0.06439677124774214,
+   "mismatched": 0.014205040645152872,
+   "excess": 0.05019173060258927
+  },
+  "Qwen2.5-Math-7B|internlm2_5-7b-chat": {
+   "matched": 0.041792108057346185,
+   "mismatched": 0.007965743374412105,
+   "excess": 0.03382636468293408
+  },
+  "Qwen2.5-Math-7B|phi-4": {
+   "matched": 0.0651605690693498,
+   "mismatched": 0.016944135522905,
+   "excess": 0.04821643354644481
+  },
+  "Qwen2.5-Math-7B|pythia-1.4b": {
+   "matched": 0.05335400102775765,
+   "mismatched": 0.014763716724243042,
+   "excess": 0.038590284303514605
+  },
+  "Qwen2.5-Math-7B|pythia-12b": {
+   "matched": 0.04055374207276631,
+   "mismatched": 0.014492951808741283,
+   "excess": 0.026060790264025028
+  },
+  "Qwen2.5-Math-7B|pythia-6.9b": {
+   "matched": 0.04054781820814229,
+   "mismatched": 0.01647078859230562,
+   "excess": 0.024077029615836666
+  },
+  "Qwen3-0.6B|Qwen3-1.7B": {
+   "matched": 0.36104143078616674,
+   "mismatched": 0.2067584672966065,
+   "excess": 0.15428296348956025
+  },
+  "Qwen3-0.6B|Qwen3-14B": {
+   "matched": 0.13235468870219913,
+   "mismatched": 0.09664277056149012,
+   "excess": 0.03571191814070901
+  },
+  "Qwen3-0.6B|Qwen3-32B": {
+   "matched": 0.012115370938513352,
+   "mismatched": 0.005324145934468141,
+   "excess": 0.006791225004045212
+  },
+  "Qwen3-0.6B|Qwen3-4B": {
+   "matched": 0.31996220951635884,
+   "mismatched": 0.16926281730567483,
+   "excess": 0.150699392210684
+  },
+  "Qwen3-0.6B|Qwen3-8B": {
+   "matched": 0.23687136067364264,
+   "mismatched": 0.1353309762257159,
+   "excess": 0.10154038444792673
+  },
+  "Qwen3-0.6B|gemma-2-27b-it": {
+   "matched": 0.053107528321624305,
+   "mismatched": 0.014328080002740445,
+   "excess": 0.03877944831888386
+  },
+  "Qwen3-0.6B|gemma-2-2b-it": {
+   "matched": 0.11341408777828178,
+   "mismatched": 0.033894714862761466,
+   "excess": 0.07951937291552032
+  },
+  "Qwen3-0.6B|gemma-2-9b-it": {
+   "matched": 0.14028408905555115,
+   "mismatched": 0.06343462625295176,
+   "excess": 0.07684946280259938
+  },
+  "Qwen3-0.6B|internlm2_5-7b-chat": {
+   "matched": 0.05615451713735692,
+   "mismatched": 0.015591842193174145,
+   "excess": 0.040562674944182774
+  },
+  "Qwen3-0.6B|phi-4": {
+   "matched": 0.12844505525016267,
+   "mismatched": 0.06192754298296795,
+   "excess": 0.06651751226719471
+  },
+  "Qwen3-0.6B|pythia-1.4b": {
+   "matched": 0.1389891164789297,
+   "mismatched": 0.054825426731749706,
+   "excess": 0.08416368974718
+  },
+  "Qwen3-0.6B|pythia-12b": {
+   "matched": 0.14012836800419226,
+   "mismatched": 0.08061577288883774,
+   "excess": 0.05951259511535452
+  },
+  "Qwen3-0.6B|pythia-6.9b": {
+   "matched": 0.1266160907219178,
+   "mismatched": 0.06617414460248333,
+   "excess": 0.06044194611943446
+  },
+  "Qwen3-1.7B|Qwen3-14B": {
+   "matched": 0.18178566481912936,
+   "mismatched": 0.06962321723863295,
+   "excess": 0.11216244758049641
+  },
+  "Qwen3-1.7B|Qwen3-32B": {
+   "matched": 0.01518036906052236,
+   "mismatched": 0.005161341151375982,
+   "excess": 0.01001902790914638
+  },
+  "Qwen3-1.7B|Qwen3-4B": {
+   "matched": 0.3573686843688607,
+   "mismatched": 0.13803836270077943,
+   "excess": 0.21933032166808128
+  },
+  "Qwen3-1.7B|Qwen3-8B": {
+   "matched": 0.34444335283739486,
+   "mismatched": 0.14838566772886058,
+   "excess": 0.19605768510853427
+  },
+  "Qwen3-1.7B|gemma-2-27b-it": {
+   "matched": 0.050915515596721236,
+   "mismatched": 0.006028046356759654,
+   "excess": 0.044887469239961585
+  },
+  "Qwen3-1.7B|gemma-2-2b-it": {
+   "matched": 0.08389337538926026,
+   "mismatched": 0.015882664316265935,
+   "excess": 0.06801071107299432
+  },
+  "Qwen3-1.7B|gemma-2-9b-it": {
+   "matched": 0.0952193616766333,
+   "mismatched": 0.024495587105359293,
+   "excess": 0.070723774571274
+  },
+  "Qwen3-1.7B|internlm2_5-7b-chat": {
+   "matched": 0.08678704966634683,
+   "mismatched": 0.015450403593143893,
+   "excess": 0.07133664607320293
+  },
+  "Qwen3-1.7B|phi-4": {
+   "matched": 0.1626917545735213,
+   "mismatched": 0.04814758652550633,
+   "excess": 0.11454416804801498
+  },
+  "Qwen3-1.7B|pythia-1.4b": {
+   "matched": 0.07154600271743694,
+   "mismatched": 0.014594003723888001,
+   "excess": 0.05695199899354894
+  },
+  "Qwen3-1.7B|pythia-12b": {
+   "matched": 0.05591873579469167,
+   "mismatched": 0.019716969563702218,
+   "excess": 0.03620176623098945
+  },
+  "Qwen3-1.7B|pythia-6.9b": {
+   "matched": 0.05311801936851889,
+   "mismatched": 0.014109534386090488,
+   "excess": 0.039008484982428406
+  },
+  "Qwen3-14B|Qwen3-32B": {
+   "matched": 0.04451636121856585,
+   "mismatched": 0.009194673350246105,
+   "excess": 0.03532168786831975
+  },
+  "Qwen3-14B|Qwen3-4B": {
+   "matched": 0.20904634073628636,
+   "mismatched": 0.07041968778404457,
+   "excess": 0.1386266529522418
+  },
+  "Qwen3-14B|Qwen3-8B": {
+   "matched": 0.2531802587768075,
+   "mismatched": 0.07813599107138934,
+   "excess": 0.17504426770541814
+  },
+  "Qwen3-14B|gemma-2-27b-it": {
+   "matched": 0.05076247059207418,
+   "mismatched": 0.001229093610672558,
+   "excess": 0.049533376981401624
+  },
+  "Qwen3-14B|gemma-2-2b-it": {
+   "matched": 0.05771624359601335,
+   "mismatched": 0.004347439902112577,
+   "excess": 0.053368803693900776
+  },
+  "Qwen3-14B|gemma-2-9b-it": {
+   "matched": 0.06082981646730161,
+   "mismatched": 0.003970093718932728,
+   "excess": 0.05685972274836888
+  },
+  "Qwen3-14B|internlm2_5-7b-chat": {
+   "matched": 0.1084005374644367,
+   "mismatched": 0.009959932236285477,
+   "excess": 0.09844060522815122
+  },
+  "Qwen3-14B|phi-4": {
+   "matched": 0.12733156581099736,
+   "mismatched": 0.019023912379937048,
+   "excess": 0.10830765343106032
+  },
+  "Qwen3-14B|pythia-1.4b": {
+   "matched": 0.03774904491866192,
+   "mismatched": 0.0032746730672427267,
+   "excess": 0.034474371851419196
+  },
+  "Qwen3-14B|pythia-12b": {
+   "matched": 0.02799500735007998,
+   "mismatched": 0.002590031727028631,
+   "excess": 0.02540497562305135
+  },
+  "Qwen3-14B|pythia-6.9b": {
+   "matched": 0.027799039928451695,
+   "mismatched": 0.0044104326999063834,
+   "excess": 0.023388607228545313
+  },
+  "Qwen3-32B|Qwen3-4B": {
+   "matched": 0.022082358291878414,
+   "mismatched": 0.008152791966259459,
+   "excess": 0.013929566325618955
+  },
+  "Qwen3-32B|Qwen3-8B": {
+   "matched": 0.020915459745295958,
+   "mismatched": 0.004850914790543274,
+   "excess": 0.016064544954752683
+  },
+  "Qwen3-32B|gemma-2-27b-it": {
+   "matched": 0.004813403523001046,
+   "mismatched": 0.00026709401709401707,
+   "excess": 0.004546309505907029
+  },
+  "Qwen3-32B|gemma-2-2b-it": {
+   "matched": 0.006283254689406691,
+   "mismatched": 0.0010357624831309042,
+   "excess": 0.005247492206275787
+  },
+  "Qwen3-32B|gemma-2-9b-it": {
+   "matched": 0.005405947739074674,
+   "mismatched": 0.0017150095439569125,
+   "excess": 0.0036909381951177617
+  },
+  "Qwen3-32B|internlm2_5-7b-chat": {
+   "matched": 0.011318744315029146,
+   "mismatched": 0.0013244385218069428,
+   "excess": 0.009994305793222203
+  },
+  "Qwen3-32B|phi-4": {
+   "matched": 0.005838032760246381,
+   "mismatched": 0.0013688103610704227,
+   "excess": 0.004469222399175959
+  },
+  "Qwen3-32B|pythia-1.4b": {
+   "matched": 0.004818195380424483,
+   "mismatched": 0.0010425101214574896,
+   "excess": 0.003775685258966993
+  },
+  "Qwen3-32B|pythia-12b": {
+   "matched": 0.003965162386215018,
+   "mismatched": 0.0024810640600114284,
+   "excess": 0.0014840983262035894
+  },
+  "Qwen3-32B|pythia-6.9b": {
+   "matched": 0.004138655717603086,
+   "mismatched": 0.0019502498449866868,
+   "excess": 0.0021884058726163993
+  },
+  "Qwen3-4B|Qwen3-8B": {
+   "matched": 0.37210904264281963,
+   "mismatched": 0.12221257541793099,
+   "excess": 0.24989646722488865
+  },
+  "Qwen3-4B|gemma-2-27b-it": {
+   "matched": 0.07008554654448522,
+   "mismatched": 0.011550873469217121,
+   "excess": 0.0585346730752681
+  },
+  "Qwen3-4B|gemma-2-2b-it": {
+   "matched": 0.12439892896895964,
+   "mismatched": 0.027737615831050614,
+   "excess": 0.09666131313790903
+  },
+  "Qwen3-4B|gemma-2-9b-it": {
+   "matched": 0.12888343675920877,
+   "mismatched": 0.03075493124315022,
+   "excess": 0.09812850551605855
+  },
+  "Qwen3-4B|internlm2_5-7b-chat": {
+   "matched": 0.10376641896796733,
+   "mismatched": 0.018372522172605127,
+   "excess": 0.0853938967953622
+  },
+  "Qwen3-4B|phi-4": {
+   "matched": 0.18374069032786708,
+   "mismatched": 0.04728090597785793,
+   "excess": 0.13645978435000916
+  },
+  "Qwen3-4B|pythia-1.4b": {
+   "matched": 0.09885365467602017,
+   "mismatched": 0.026747991688974664,
+   "excess": 0.0721056629870455
+  },
+  "Qwen3-4B|pythia-12b": {
+   "matched": 0.08149904839479831,
+   "mismatched": 0.03436700346481317,
+   "excess": 0.04713204492998514
+  },
+  "Qwen3-4B|pythia-6.9b": {
+   "matched": 0.0772742098107616,
+   "mismatched": 0.03352482065456137,
+   "excess": 0.043749389156200226
+  },
+  "Qwen3-8B|gemma-2-27b-it": {
+   "matched": 0.05639533402286503,
+   "mismatched": 0.0015351708068426335,
+   "excess": 0.05486016321602239
+  },
+  "Qwen3-8B|gemma-2-2b-it": {
+   "matched": 0.06880537732468989,
+   "mismatched": 0.008370945579546273,
+   "excess": 0.06043443174514361
+  },
+  "Qwen3-8B|gemma-2-9b-it": {
+   "matched": 0.07655745678485065,
+   "mismatched": 0.005485978531962503,
+   "excess": 0.07107147825288815
+  },
+  "Qwen3-8B|internlm2_5-7b-chat": {
+   "matched": 0.11860066338010955,
+   "mismatched": 0.013359107777688624,
+   "excess": 0.10524155560242093
+  },
+  "Qwen3-8B|phi-4": {
+   "matched": 0.19407206264529298,
+   "mismatched": 0.039997935566699894,
+   "excess": 0.15407412707859308
+  },
+  "Qwen3-8B|pythia-1.4b": {
+   "matched": 0.054895690637352945,
+   "mismatched": 0.004719331750388252,
+   "excess": 0.05017635888696469
+  },
+  "Qwen3-8B|pythia-12b": {
+   "matched": 0.03716058826453262,
+   "mismatched": 0.00461738974122875,
+   "excess": 0.03254319852330387
+  },
+  "Qwen3-8B|pythia-6.9b": {
+   "matched": 0.03548296222437787,
+   "mismatched": 0.0034409297621371925,
+   "excess": 0.032042032462240674
+  },
+  "gemma-2-27b-it|gemma-2-2b-it": {
+   "matched": 0.09189018608524797,
+   "mismatched": 0.020004039166190868,
+   "excess": 0.0718861469190571
+  },
+  "gemma-2-27b-it|gemma-2-9b-it": {
+   "matched": 0.11265200874509643,
+   "mismatched": 0.023275431800982956,
+   "excess": 0.08937657694411347
+  },
+  "gemma-2-27b-it|internlm2_5-7b-chat": {
+   "matched": 0.057297342021832,
+   "mismatched": 0.001089578155367629,
+   "excess": 0.05620776386646437
+  },
+  "gemma-2-27b-it|phi-4": {
+   "matched": 0.0842030381112216,
+   "mismatched": 0.0020608369177448124,
+   "excess": 0.08214220119347679
+  },
+  "gemma-2-27b-it|pythia-1.4b": {
+   "matched": 0.07189100147345928,
+   "mismatched": 0.021176565039568135,
+   "excess": 0.05071443643389115
+  },
+  "gemma-2-27b-it|pythia-12b": {
+   "matched": 0.06394985908682853,
+   "mismatched": 0.021531235473959933,
+   "excess": 0.04241862361286859
+  },
+  "gemma-2-27b-it|pythia-6.9b": {
+   "matched": 0.0639860371998892,
+   "mismatched": 0.01787498457854495,
+   "excess": 0.046111052621344246
+  },
+  "gemma-2-2b-it|gemma-2-9b-it": {
+   "matched": 0.20616531137221483,
+   "mismatched": 0.04481934868370002,
+   "excess": 0.1613459626885148
+  },
+  "gemma-2-2b-it|internlm2_5-7b-chat": {
+   "matched": 0.05221760629381438,
+   "mismatched": 0.0031353292227905226,
+   "excess": 0.04908227707102386
+  },
+  "gemma-2-2b-it|phi-4": {
+   "matched": 0.09073565032570732,
+   "mismatched": 0.007408807174006164,
+   "excess": 0.08332684315170116
+  },
+  "gemma-2-2b-it|pythia-1.4b": {
+   "matched": 0.1424430253822668,
+   "mismatched": 0.05018695215314567,
+   "excess": 0.09225607322912113
+  },
+  "gemma-2-2b-it|pythia-12b": {
+   "matched": 0.11033530349395741,
+   "mismatched": 0.04942349876951146,
+   "excess": 0.060911804724445955
+  },
+  "gemma-2-2b-it|pythia-6.9b": {
+   "matched": 0.10576966654330866,
+   "mismatched": 0.04316784658575955,
+   "excess": 0.06260181995754911
+  },
+  "gemma-2-9b-it|internlm2_5-7b-chat": {
+   "matched": 0.06893812765071647,
+   "mismatched": 0.004588391114029659,
+   "excess": 0.06434973653668681
+  },
+  "gemma-2-9b-it|phi-4": {
+   "matched": 0.11716388788271849,
+   "mismatched": 0.01063135271400464,
+   "excess": 0.10653253516871385
+  },
+  "gemma-2-9b-it|pythia-1.4b": {
+   "matched": 0.17880137422881792,
+   "mismatched": 0.0822810105893818,
+   "excess": 0.09652036363943613
+  },
+  "gemma-2-9b-it|pythia-12b": {
+   "matched": 0.18512992208168724,
+   "mismatched": 0.09887747817717692,
+   "excess": 0.08625244390451033
+  },
+  "gemma-2-9b-it|pythia-6.9b": {
+   "matched": 0.1737926089918003,
+   "mismatched": 0.09385327215039528,
+   "excess": 0.07993933684140501
+  },
+  "internlm2_5-7b-chat|phi-4": {
+   "matched": 0.13993818890980544,
+   "mismatched": 0.007391109974623281,
+   "excess": 0.13254707893518217
+  },
+  "internlm2_5-7b-chat|pythia-1.4b": {
+   "matched": 0.05114391425873068,
+   "mismatched": 0.0024283415521805614,
+   "excess": 0.04871557270655012
+  },
+  "internlm2_5-7b-chat|pythia-12b": {
+   "matched": 0.0391705494791328,
+   "mismatched": 0.0022943888295181613,
+   "excess": 0.03687616064961464
+  },
+  "internlm2_5-7b-chat|pythia-6.9b": {
+   "matched": 0.03996794753144395,
+   "mismatched": 0.0027987000541180107,
+   "excess": 0.03716924747732594
+  },
+  "phi-4|pythia-1.4b": {
+   "matched": 0.09386046465131714,
+   "mismatched": 0.009265594666049076,
+   "excess": 0.08459486998526806
+  },
+  "phi-4|pythia-12b": {
+   "matched": 0.06742998667565726,
+   "mismatched": 0.01303155809342422,
+   "excess": 0.054398428582233045
+  },
+  "phi-4|pythia-6.9b": {
+   "matched": 0.06387556435512912,
+   "mismatched": 0.013268475539672983,
+   "excess": 0.050607088815456135
+  },
+  "pythia-1.4b|pythia-12b": {
+   "matched": 0.3721374415276849,
+   "mismatched": 0.12821221390668888,
+   "excess": 0.24392522762099603
+  },
+  "pythia-1.4b|pythia-6.9b": {
+   "matched": 0.3764043728761057,
+   "mismatched": 0.13662844226391754,
+   "excess": 0.23977593061218813
+  },
+  "pythia-12b|pythia-6.9b": {
+   "matched": 0.5165382310369455,
+   "mismatched": 0.20088786654959334,
+   "excess": 0.3156503644873522
+  }
+ },
+ "permutation_excess": {
+  "p": 0.0,
+  "effect": 5.406489689897908,
+  "observed": 0.04888363097184942
+ },
+ "corr_raw": 0.3404991976141043,
+ "corr_partial": 0.24962209673142702,
+ "mismatched_baseline_same_tok": 0.05798798626089337,
+ "mismatched_baseline_diff_tok": 0.010784608216207806
+}
