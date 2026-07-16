@@ -4,7 +4,7 @@ FINAL frozen analysis for AAAI paper (Plan C: dual-depth reporting).
 
 Depth 3/4  = "deep concept fingerprint"  — primary for models whose concepts
              have crystallized by 3/4 depth (all <=14B here).
-Near-final = universal fingerprint       — all 30 models.
+Near-final = universal fingerprint       — all 32 models.
 Plus: crystallization-depth finding (Qwen3-32B case study).
 
 Outputs results/final_analysis.json with everything the paper needs.
@@ -25,7 +25,7 @@ OUT = os.path.join(RESULTS_DIR, "final_analysis.json")
 rng = np.random.default_rng(42)
 
 # 64-layer models where 3/4 depth precedes concept crystallization
-DEEP_UNCRYSTALLIZED = {"Qwen3-32B", "DeepSeek-R1-Distill-Qwen-32B", "Qwen2.5-32B-Instruct", "gemma-2-27b-it"}
+DEEP_UNCRYSTALLIZED = {"Qwen3-32B", "DeepSeek-R1-Distill-Qwen-32B", "Qwen2.5-32B-Instruct", "Qwen2.5-32B", "gemma-2-27b-it"}
 
 
 def load_all():
@@ -102,9 +102,9 @@ def cohens_d(matrix, models):
 def key_pairs(matrix):
     P = lambda a, b: matrix[f"{a}|{b}"]["jaccard_20"]
     return {
-        "DS32B_base_Qwen2.5-32B": P("DeepSeek-R1-Distill-Qwen-32B", "Qwen2.5-32B-Instruct"),
+        "DS32B_base_Qwen2.5-32B": P("DeepSeek-R1-Distill-Qwen-32B", "Qwen2.5-32B"),
         "DS7B_base_Math-7B": P("DeepSeek-R1-Distill-Qwen-7B", "Qwen2.5-Math-7B"),
-        "DSLlama8B_base_Llama31-8B": P("DeepSeek-R1-Distill-Llama-8B", "Llama-3.1-8B-Instruct"),
+        "DSLlama8B_base_Llama31-8B": P("DeepSeek-R1-Distill-Llama-8B", "Llama-3.1-8B"),
         "Pythia_6.9_12": P("pythia-6.9b", "pythia-12b"),
         "Pythia_1.4_12": P("pythia-1.4b", "pythia-12b"),
         "Qwen3_32B_14B": P("Qwen3-32B", "Qwen3-14B"),

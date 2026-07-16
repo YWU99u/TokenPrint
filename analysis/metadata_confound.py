@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-B3 + B4: metadata baseline and confound regression (30-model calibration pool).
+B3 + B4: metadata baseline and confound regression (32-model calibration pool).
 
 B3  Metadata-only family AUC (in-sample logistic regression, deliberately
     favorable to the baseline): same_tok, same_dev, |dlog params|, |dyear|.
@@ -47,8 +47,10 @@ RELEASE = {
     "Qwen2.5-1.5B-Instruct": 2024.7, "Qwen2.5-3B-Instruct": 2024.7,
     "Qwen2.5-7B-Instruct": 2024.7, "Qwen2.5-32B-Instruct": 2024.7,
     "Qwen2.5-Math-7B": 2024.7,
+    "Qwen2.5-32B": 2024.7,
     "Llama-3.2-1B-Instruct": 2024.7, "Llama-3.2-3B-Instruct": 2024.7,
     "Llama-3.1-8B-Instruct": 2024.5,
+    "Llama-3.1-8B": 2024.5,
     "Mistral-7B-Instruct-v0.3": 2024.4, "Ministral-8B-Instruct-2410": 2024.8,
     "Phi-3.5-mini-instruct": 2024.6, "phi-4": 2024.95,
     "DeepSeek-R1-Distill-Qwen-1.5B": 2025.05, "DeepSeek-R1-Distill-Qwen-7B": 2025.05,
@@ -122,7 +124,7 @@ def main():
                 continue
             fps[m] = json.load(open(os.path.join(FP_DIR, f)))
     models = sorted(fps.keys())
-    assert len(models) == 30, f"expected 30, got {len(models)}"
+    assert len(models) == 32, f"expected 32, got {len(models)}"
 
     # capability scores
     cap = {}
@@ -198,11 +200,11 @@ def main():
                  "auc_same_dev_alone": auc(y, Xmeta[:, 1])}
 
     # metadata NN ancestry
-    Q = {"DeepSeek-R1-Distill-Qwen-32B": "Qwen2.5-32B-Instruct",
+    Q = {"DeepSeek-R1-Distill-Qwen-32B": "Qwen2.5-32B",
          "DeepSeek-R1-Distill-Qwen-14B": "Qwen2.5-14B",
          "DeepSeek-R1-Distill-Qwen-7B": "Qwen2.5-Math-7B",
          "DeepSeek-R1-Distill-Qwen-1.5B": "Qwen2.5-Math-1.5B",
-         "DeepSeek-R1-Distill-Llama-8B": "Llama-3.1-8B-Instruct"}
+         "DeepSeek-R1-Distill-Llama-8B": "Llama-3.1-8B"}
     all_cand = models + sorted(ANCESTRY_ADDS)
     hits = 0
     print("\n  metadata-NN ancestry (same tokenizer group, closest |dlog params|):")
@@ -214,7 +216,7 @@ def main():
         ok = top == base
         hits += ok
         print(f"    {q:32s} -> {top:28s} {'HIT' if ok else 'miss (base: '+base+')'}")
-    print(f"  metadata ancestry: {hits}/5 (fingerprint: 3/5 top-1, 5/5 top-2)")
+    print(f"  metadata ancestry: {hits}/5 (fingerprint: 1/5 top-1, 5/5 top-2)")
     out["B3"]["metadata_ancestry_hits"] = hits
 
     # ══ Collinearity diagnostic ════════════════════════════════════

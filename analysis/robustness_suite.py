@@ -113,8 +113,8 @@ def main():
 
     # ── R1: excess-corrected headlines ─────────────────────────────
     pythia = ["pythia-1.4b", "pythia-6.9b", "pythia-12b"]
-    base_pairs = [("DeepSeek-R1-Distill-Qwen-32B", "Qwen2.5-32B-Instruct"),
-                  ("DeepSeek-R1-Distill-Llama-8B", "Llama-3.1-8B-Instruct"),
+    base_pairs = [("DeepSeek-R1-Distill-Qwen-32B", "Qwen2.5-32B"),
+                  ("DeepSeek-R1-Distill-Llama-8B", "Llama-3.1-8B"),
                   ("DeepSeek-R1-Distill-Qwen-7B", "Qwen2.5-Math-7B")]
     base_set = {tuple(sorted(p)) for p in base_pairs}
 

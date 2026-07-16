@@ -24,7 +24,7 @@ from probes import PROBES
 rng = np.random.default_rng(42)
 K = 20
 
-# 30-model main pool only (exclude controls)
+# 32-model main pool only (exclude controls)
 CONTROLS = {"Qwen2.5-7B", "gpt2-xl", "opt-6.7b", "OLMo-2-1124-7B",
             "pythia-1.4b-deduped", "pythia-6.9b-deduped", "pythia-12b-deduped"}
 
@@ -117,8 +117,8 @@ def main():
 
     # ══ M2: leave-one-domain-out ═══════════════════════════════════
     print(f"\nM2 leave-one-domain-out (family AUC / base-ID hits):")
-    base_cases = [("DeepSeek-R1-Distill-Qwen-32B", "Qwen2.5-32B-Instruct"),
-                  ("DeepSeek-R1-Distill-Llama-8B", "Llama-3.1-8B-Instruct"),
+    base_cases = [("DeepSeek-R1-Distill-Qwen-32B", "Qwen2.5-32B"),
+                  ("DeepSeek-R1-Distill-Llama-8B", "Llama-3.1-8B"),
                   ("DeepSeek-R1-Distill-Qwen-7B", "Qwen2.5-Math-7B")]
     def eval_probeset(idx):
         ms = {k: float(v[idx].mean()) for k, v in PP.items()}

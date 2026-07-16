@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-Depth ablation on the full 30-model pool (was 26 — now 4 big models have
+Depth ablation on the full 32-model calibration pool (was 26 — now 4 big models have
 output logits from the rental session).
 
 5 readout depths: L/4, L/2, 3L/4, L-2 (from internal fps), output (from _out.json).
 For each: family AUC, pair-level Cohen's d, within/between ratio.
 
-30-model calibration pool only (no controls, no ancestry adds).
+32-model calibration pool only (no controls, no ancestry adds).
 
 Output: results/depth_ablation_30.json
 """
@@ -58,7 +58,7 @@ def main():
             fps[m] = json.load(open(os.path.join(FP_DIR, f)))
     models = sorted(fps.keys())
     print(f"calibration pool: {len(models)} models")
-    assert len(models) == 30, f"expected 30, got {len(models)}: {models}"
+    assert len(models) == 32, f"expected 32, got {len(models)}: {models}"
 
     # load output baselines
     outs = {}

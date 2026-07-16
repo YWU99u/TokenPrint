@@ -98,7 +98,6 @@ Numerical precision: fp32 and bf16 extractions agree at Jaccard 0.98.
 | Quantization envelope | `depth_ablation_30.py` | `fingerprints/controls/` | `results/quant_envelope.json` |
 | API truncation (k=5) | `depth_ablation_30.py` | `fingerprints/output/` | `results/api_truncation.json` |
 | Capability scores | `capability_gold.py` | `fingerprints/calibration/` | (stdout) |
-| All figures | `make_figures_jspace.py` | `results/` | `paper/figures/` |
 
 ## Requirements
 

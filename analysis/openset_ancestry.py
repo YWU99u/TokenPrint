@@ -2,8 +2,8 @@
 """
 B2: Open-set ancestry identification (pure re-analysis, near-final depth, k=20).
 
-For each of the 5 R1 distillations, rank the 31 ancestry candidates
-(30-model calibration pool + 2 documented-base additions, minus query), then:
+For each of the 5 R1 distillations, rank the 33 ancestry candidates
+(32-model calibration pool + 2 documented-base additions, minus query), then:
 
   closed   : full candidate set (sanity check == paper Table 3)
   open-a   : documented base removed          -> who gets misattributed, at what
@@ -34,14 +34,24 @@ N_BOOT = 500
 CONTROLS = {"Qwen2.5-7B", "gpt2-xl", "opt-6.7b", "OLMo-2-1124-7B",
             "pythia-1.4b-deduped", "pythia-6.9b-deduped", "pythia-12b-deduped"}
 
-QUERIES = {  # query -> documented base (paper Table 3 convention)
-    "DeepSeek-R1-Distill-Qwen-32B":  "Qwen2.5-32B-Instruct",
+QUERIES = {  # query -> exact documented base
+    "DeepSeek-R1-Distill-Qwen-32B":  "Qwen2.5-32B",
     "DeepSeek-R1-Distill-Qwen-14B":  "Qwen2.5-14B",
     "DeepSeek-R1-Distill-Qwen-7B":   "Qwen2.5-Math-7B",
     "DeepSeek-R1-Distill-Qwen-1.5B": "Qwen2.5-Math-1.5B",
-    "DeepSeek-R1-Distill-Llama-8B":  "Llama-3.1-8B-Instruct",
+    "DeepSeek-R1-Distill-Llama-8B":  "Llama-3.1-8B",
 }
 SIBLING_FAMS = {"DS-Qwen", "DS-Llama"}
+
+# Same-base siblings: other models known to derive from the same checkpoint as the query's base.
+# These must be excluded in open-b to test the "no relative in pool" scenario.
+SAME_BASE_SIBLINGS = {
+    "DeepSeek-R1-Distill-Qwen-32B":  {"Qwen2.5-32B-Instruct"},
+    "DeepSeek-R1-Distill-Qwen-14B":  set(),
+    "DeepSeek-R1-Distill-Qwen-7B":   set(),
+    "DeepSeek-R1-Distill-Qwen-1.5B": set(),
+    "DeepSeek-R1-Distill-Llama-8B":  {"Llama-3.1-8B-Instruct"},
+}
 
 
 def nf_key(fp):
@@ -93,9 +103,10 @@ def main():
     for q, base in QUERIES.items():
         siblings = {m for m in models
                     if FAMILY_MAP.get(m, m) in SIBLING_FAMS and m != q}
+        same_base = SAME_BASE_SIBLINGS.get(q, set())
         conds = {"closed": {q},
                  "open-a": {q, base},
-                 "open-b": {q, base} | siblings}
+                 "open-b": {q, base} | siblings | same_base}
         case = {"documented_base": base}
         print(f"\n=== {q} (base: {base}) ===\n{header}")
         for cname, excl in conds.items():
