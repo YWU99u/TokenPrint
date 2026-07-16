@@ -34,9 +34,6 @@ release/
 ├── figures/
 │   └── make_figures_jspace.py  # Generate all paper figures from results/
 │
-├── paper/
-│   └── gen_appendix.py         # Generate appendix tables from results/
-│
 ├── fingerprints/               # Pre-extracted fingerprints (all models)
 │   ├── calibration/            # 30 calibration-pool models (_fp.json)
 │   ├── output/                 # Output-level fingerprints (_out.json)
